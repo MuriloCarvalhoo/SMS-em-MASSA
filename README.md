@@ -9,7 +9,7 @@ cd laradock
 
 docker-compose up -d apache2 phpmyadmin
 
-#MODEM GSM
+# MODEM GSM
 
 Instalar GAMMU 
 
@@ -21,7 +21,7 @@ Consifurar gammu :
 
 sudo nano /etc/gammu-smsdrc
 
-#Copie e cole:
+# Copie e cole:
 
 [gammu]
 port = /dev/ttyUSB0
