@@ -24,20 +24,31 @@ sudo nano /etc/gammu-smsdrc
 # Copie e cole:
 
 [gammu]
+
 port = /dev/ttyUSB0
+
 connection = at
+
 // Debugging
+
 logformat = textall
 
-//SMSD configuration, see gammu-smsdrc(5)
+//SMSD configuration, see gammu-smsdrc
+
 [smsd]
+
 PIN = 3636
+
 service = sql
+
 driver = native_mysql
+
 logfile = /var/log/smsd
+
 host = chatbox.cxeefirnfcvu.us-east-2.rds.amazonaws.com
+
 user = admin
+
 password = 12345678
+
 database = smspan_db
-
-
