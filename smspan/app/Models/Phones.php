@@ -9,6 +9,8 @@ class Phones extends Model
 {
     protected $table = 'phones';
 
+    public $timestamps = false;
+
     protected $fillable = [
         'ID',
         'UpdatedInDB',

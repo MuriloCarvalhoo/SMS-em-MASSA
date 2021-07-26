@@ -9,6 +9,8 @@ class Sentitems extends Model
 {
     protected $table = 'sentitems';
 
+    public $timestamps = false;
+
     protected $fillable = [
         'UpdatedInDB',
         'InsertInDB',

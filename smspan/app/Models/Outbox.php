@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Outbox extends Model
 {
     protected $table = 'outbox';
+    
+    public $timestamps = false;
 
     protected $fillable = [
         'UpdatedInDB',
@@ -35,4 +37,6 @@ class Outbox extends Model
     ];
 
     use HasFactory;
+
+
 }

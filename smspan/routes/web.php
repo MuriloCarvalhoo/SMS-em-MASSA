@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\SmsPanController;
+use App\Http\Controllers\SendSMSController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,10 +20,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-/*Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');*/
-
 Route::get('/dashboard', [SmsPanController::class, 'index'])->middleware(['auth'])->name('dashboard');
+
+Route::get('/sendsms', [SendSMSController::class, 'index'])->middleware(['auth'])->name('sendsms');
+
+Route::get('export', [SendSMSController::class, 'export'])->middleware(['auth'])->name('export');
+Route::post('import', [SendSMSController::class, 'import'])->middleware(['auth'])->name('import');
+Route::any('consultSendSms', [SendSMSController::class, 'consultaSendSms'])->middleware(['auth'])->name('consultaSendSms');
+
 
 require __DIR__.'/auth.php';

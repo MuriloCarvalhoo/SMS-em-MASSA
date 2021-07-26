@@ -10,7 +10,7 @@ class SmsPan extends Model
 
     protected $table = 'inbox';
 
-    public $timestamps = true;
+    public $timestamps = false;
 
     protected $fillable = [
         'UpdatedInDB',
