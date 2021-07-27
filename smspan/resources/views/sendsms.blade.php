@@ -42,10 +42,8 @@
                 <div class="p-6 bg-white border-b border-gray-200">
                     Mensages que serão enviadas:
                 </div>
-                <form action="consultSendSms" method="get" id="FormConsultaSMS">
-                    {{ csrf_field() }}
 
-                    <table class="table-fixed border-separate border-black-800 m-1">
+                    <table class="table table-striped m-1" id="tableOutbox">
                         <thead>
                         <tr>
                             <th class="w-1/4 border border-black-600 p-1">Numero</th>
@@ -53,18 +51,7 @@
                             <th class="w-1/4 border border-black-600 p-1">Inserido</th>
                         </tr>
                         </thead>
-                        <tbody>
-                            @foreach ($outbox as $out)
-                                <tr>
-                                    <td class="border border-black-600 p-1">{{ $out->DestinationNumber }}</td>
-                                    <td class="border border-black-600 p-1">{{ $out->TextDecoded }}</td>
-                                    <td class="border border-black-600 p-1">{{ $out->InsertIntoDB }}</td>
-                                </tr>
-                            @endforeach
-                        </tbody>
                     </table>
-                </form>
-
             </div>
         </div>
     </div>

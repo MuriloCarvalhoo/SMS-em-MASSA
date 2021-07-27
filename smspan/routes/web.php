@@ -26,7 +26,8 @@ Route::get('/sendsms', [SendSMSController::class, 'index'])->middleware(['auth']
 
 Route::get('export', [SendSMSController::class, 'export'])->middleware(['auth'])->name('export');
 Route::post('import', [SendSMSController::class, 'import'])->middleware(['auth'])->name('import');
-Route::any('consultSendSms', [SendSMSController::class, 'consultaSendSms'])->middleware(['auth'])->name('consultaSendSms');
+Route::any('smsNaoEnviados', [SendSMSController::class, 'smsNaoEnviados'])->middleware(['auth'])->name('smsNaoEnviados');
+Route::any('smsEnviados', [SmsPanController::class, 'smsEnviados'])->middleware(['auth'])->name('smsEnviados');
 
 
 require __DIR__.'/auth.php';

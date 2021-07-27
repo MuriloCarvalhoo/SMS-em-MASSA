@@ -10,7 +10,7 @@ use App\Models\SmsPan;
 use App\Imports\SmsImport;
 use App\Imports\SmsExport;
 use Maatwebsite\Excel\Facades\Excel;
-use Response;
+use Illuminate\Support\Facades\Response;
 
 
 class SendSMSController extends Controller
@@ -20,11 +20,11 @@ class SendSMSController extends Controller
         return view('sendsms');
     }
 
-    public function consultaSendSms()
+    public function smsNaoEnviados()
     {
         $outbox = Outbox::paginate(15);
 
-        return response()->json($outbox);
+        return Response::json($outbox);
 
     }
 
@@ -35,9 +35,7 @@ class SendSMSController extends Controller
 
     public function import()
     {
-        //Excel::import(new SmsImport,request()->file('file'));
         Excel::import(new SmsImport,request()->file('file'));
-
 
         return back();
     }
