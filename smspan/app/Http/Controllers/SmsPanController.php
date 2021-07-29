@@ -19,7 +19,7 @@ class SmsPanController extends Controller
 
     public function smsEnviados()
     {
-        $inbox = Sentitems::paginate(15);
+        $inbox = Sentitems::paginate(1000);
 
         return Response::json($inbox);
     }

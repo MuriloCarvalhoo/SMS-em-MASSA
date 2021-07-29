@@ -11378,3 +11378,669 @@ docker.vm:80 172.25.0.1 - - [27/Jul/2021:19:39:30 +0000] "GET /smsNaoEnviados?dr
 [httpd:access] localhost:80 - - 172.25.0.1 - - [27/Jul/2021:19:39:30 +0000] "GET /smsNaoEnviados?draw=1&columns%5B0%5D%5Bdata%5D=DestinationNumber&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=TextDecoded&columns%5B1%5D%5Bname%5D=&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=InsertIntoDB&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&length=10&search%5Bvalue%5D=&search%5Bregex%5D=false&_=1627414770574 HTTP/1.1" 200 bytesIn:2594 bytesOut:3943 reqTime:2
 docker.vm:80 172.25.0.1 - - [27/Jul/2021:19:39:32 +0000] "GET /smsNaoEnviados?draw=1&columns%5B0%5D%5Bdata%5D=DestinationNumber&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=TextDecoded&columns%5B1%5D%5Bname%5D=&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=InsertIntoDB&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&length=10&search%5Bvalue%5D=&search%5Bregex%5D=false&_=1627414772174 HTTP/1.1" 200 3943 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
 [httpd:access] localhost:80 - - 172.25.0.1 - - [27/Jul/2021:19:39:32 +0000] "GET /smsNaoEnviados?draw=1&columns%5B0%5D%5Bdata%5D=DestinationNumber&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=TextDecoded&columns%5B1%5D%5Bname%5D=&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=InsertIntoDB&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&length=10&search%5Bvalue%5D=&search%5Bregex%5D=false&_=1627414772174 HTTP/1.1" 200 bytesIn:2594 bytesOut:3943 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:13:27:58 +0000] "GET /dashboard HTTP/1.1" 302 1554 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:13:27:58 +0000] "GET /dashboard HTTP/1.1" 302 bytesIn:1629 bytesOut:1554 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:13:27:59 +0000] "GET /login HTTP/1.1" 200 3673 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:13:27:59 +0000] "GET /login HTTP/1.1" 200 bytesIn:1626 bytesOut:3673 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:13:28:00 +0000] "POST /login HTTP/1.1" 302 1573 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:13:28:00 +0000] "POST /login HTTP/1.1" 302 bytesIn:1830 bytesOut:1573 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:13:28:02 +0000] "GET /dashboard HTTP/1.1" 200 4766 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:13:28:02 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1630 bytesOut:4766 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:13:28:23 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:13:28:23 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1605 bytesOut:5041 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:13:28:31 +0000] "GET /dashboard HTTP/1.1" 200 4767 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:13:28:31 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1605 bytesOut:4767 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:13:29:23 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.22.0.1 - - [29/Jul/2021:13:29:23 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:14:07:37 +0000] "GET /dashboard HTTP/1.1" 200 4767 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:14:07:37 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1631 bytesOut:4767 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:14:07:39 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:14:07:39 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1528 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:14:07:41 +0000] "GET /sendsms HTTP/1.1" 200 5040 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:14:07:41 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1606 bytesOut:5040 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:14:08:28 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.22.0.1 - - [29/Jul/2021:14:08:28 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:15:58:51 +0000] "GET / HTTP/1.1" 200 6390 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:15:58:51 +0000] "GET / HTTP/1.1" 200 bytesIn:1549 bytesOut:6390 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:15:58:53 +0000] "GET /favicon.ico HTTP/1.1" 304 178 "http://localhost:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:15:58:53 +0000] "GET /favicon.ico HTTP/1.1" 304 bytesIn:1560 bytesOut:178 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:15:58:55 +0000] "GET /dashboard HTTP/1.1" 200 4766 "http://localhost:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:15:58:55 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1599 bytesOut:4766 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:15:58:56 +0000] "GET /css/app.css HTTP/1.1" 200 337180 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:15:58:56 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1439 bytesOut:337180 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:15:59:43 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.22.0.1 - - [29/Jul/2021:15:59:43 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:04:32 +0000] "GET /dashboard HTTP/1.1" 200 4767 "http://localhost:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:04:32 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1624 bytesOut:4767 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:04:34 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:04:34 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1528 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:04:36 +0000] "GET /sendsms HTTP/1.1" 200 5040 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:04:36 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1606 bytesOut:5040 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:04:52 +0000] "GET /dashboard HTTP/1.1" 200 4767 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:04:52 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1605 bytesOut:4767 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:05:44 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.22.0.1 - - [29/Jul/2021:16:05:44 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:06:08 +0000] "GET /dashboard HTTP/1.1" 200 4767 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:06:08 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1631 bytesOut:4767 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:06:10 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:06:10 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1528 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:06:59 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.22.0.1 - - [29/Jul/2021:16:06:59 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:07:51 +0000] "GET /dashboard HTTP/1.1" 200 4767 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:07:51 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1989 bytesOut:4767 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:07:53 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:07:53 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1886 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:08:35 +0000] "GET /dashboard HTTP/1.1" 200 4767 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:08:35 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1989 bytesOut:4767 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:08:37 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:08:37 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1886 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:08:39 +0000] "GET /sendsms HTTP/1.1" 200 5040 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:08:39 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1964 bytesOut:5040 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:09:18 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:09:18 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1989 bytesOut:5041 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:09:20 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:09:20 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1884 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:09:22 +0000] "GET /dashboard HTTP/1.1" 200 4766 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:09:22 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1964 bytesOut:4766 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:09:24 +0000] "GET /sendsms HTTP/1.1" 200 5040 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:09:24 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1964 bytesOut:5040 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:10:10 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.22.0.1 - - [29/Jul/2021:16:10:10 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:26:43 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:26:43 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1989 bytesOut:5041 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:26:45 +0000] "GET /css/app.css HTTP/1.1" 200 337180 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:26:45 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1889 bytesOut:337180 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:26:46 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:26:46 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1884 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:27:35 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.22.0.1 - - [29/Jul/2021:16:27:35 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:29:10 +0000] "GET /smsEnviados HTTP/1.1" 200 16268 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:29:10 +0000] "GET /smsEnviados HTTP/1.1" 200 bytesIn:1918 bytesOut:16268 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:29:59 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:29:59 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1989 bytesOut:5041 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:30:01 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:30:01 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1884 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:30:04 +0000] "GET /dashboard HTTP/1.1" 200 4766 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:30:04 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1964 bytesOut:4766 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:30:41 +0000] "GET /dashboard HTTP/1.1" 200 4767 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:30:41 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1989 bytesOut:4767 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:30:42 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:30:42 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1886 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:31:20 +0000] "GET /dashboard HTTP/1.1" 200 4767 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:31:20 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1975 bytesOut:4767 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:31:22 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:31:22 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1872 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:31:27 +0000] "GET /sendsms HTTP/1.1" 200 5040 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:31:27 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1950 bytesOut:5040 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:31:27 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:31:27 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1949 bytesOut:5041 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:31:31 +0000] "GET /dashboard HTTP/1.1" 200 4766 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:31:31 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1950 bytesOut:4766 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:31:32 +0000] "GET /dashboard HTTP/1.1" 200 4767 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:31:32 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1949 bytesOut:4767 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:32:40 +0000] "GET /dashboard HTTP/1.1" 200 4773 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:32:40 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1975 bytesOut:4773 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:32:42 +0000] "GET /js/ajax.js HTTP/1.1" 200 561 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:32:42 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1768 bytesOut:561 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:32:42 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:32:42 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1872 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:32:59 +0000] "GET /dashboard HTTP/1.1" 200 4773 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:32:59 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1975 bytesOut:4773 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:33:01 +0000] "GET /js/ajax.js HTTP/1.1" 200 522 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:33:01 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1859 bytesOut:522 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:33:01 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:33:01 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1872 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:33:32 +0000] "GET /dashboard HTTP/1.1" 200 4773 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:33:32 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1975 bytesOut:4773 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:33:34 +0000] "GET /js/ajax.js HTTP/1.1" 200 525 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:33:34 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1858 bytesOut:525 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:33:35 +0000] "GET /%7B%7B%20route('smsEnviados')%20%7D%7D?_=1627576414671 HTTP/1.1" 404 7192 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:33:35 +0000] "GET /%7B%7B%20route('smsEnviados')%20%7D%7D?_=1627576414671 HTTP/1.1" 404 bytesIn:1885 bytesOut:7192 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:33:37 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:33:37 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1872 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:33:49 +0000] "GET /dashboard HTTP/1.1" 200 4773 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:33:49 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1975 bytesOut:4773 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:33:51 +0000] "GET /js/ajax.js HTTP/1.1" 200 515 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:33:51 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1858 bytesOut:515 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:33:52 +0000] "GET /favicon.ico HTTP/1.1" 200 296 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:33:52 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1871 bytesOut:296 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:33:51 +0000] "GET /smsEnviados?_=1627576431847 HTTP/1.1" 200 16260 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:33:51 +0000] "GET /smsEnviados?_=1627576431847 HTTP/1.1" 200 bytesIn:1858 bytesOut:16260 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:34:18 +0000] "GET /dashboard HTTP/1.1" 200 4660 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:34:18 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1975 bytesOut:4660 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:34:20 +0000] "GET /js/ajax.js HTTP/1.1" 200 515 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:34:20 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1858 bytesOut:515 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:34:20 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:34:20 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1872 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:35:10 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.22.0.1 - - [29/Jul/2021:16:35:10 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:42:43 +0000] "GET /dashboard HTTP/1.1" 200 4689 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:42:43 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1975 bytesOut:4689 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /css/datatables.css HTTP/1.1" 200 2889 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1790 bytesOut:2889 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /js/ajax.js HTTP/1.1" 200 516 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1857 bytesOut:516 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1776 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1773 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /css/DataTables-1.10.25/images/sort_both.png HTTP/1.1" 404 6900 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /css/DataTables-1.10.25/images/sort_both.png HTTP/1.1" 404 bytesIn:1870 bytesOut:6900 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /css/DataTables-1.10.25/images/sort_asc.png HTTP/1.1" 404 6900 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /css/DataTables-1.10.25/images/sort_asc.png HTTP/1.1" 404 bytesIn:1869 bytesOut:6900 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:42:46 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:42:46 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1872 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /smsEnviados?_=1627576965289 HTTP/1.1" 200 16267 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:42:45 +0000] "GET /smsEnviados?_=1627576965289 HTTP/1.1" 200 bytesIn:1858 bytesOut:16267 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:43:17 +0000] "GET /dashboard HTTP/1.1" 200 4689 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:43:17 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1975 bytesOut:4689 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:43:18 +0000] "GET /css/datatables.css HTTP/1.1" 200 2889 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:43:18 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1882 bytesOut:2889 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:43:18 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:43:18 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1869 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:43:18 +0000] "GET /js/datatables.js HTTP/1.1" 200 194917 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:43:18 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1867 bytesOut:194917 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:43:19 +0000] "GET /css/DataTables-1.10.25/images/sort_both.png HTTP/1.1" 404 6900 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:43:19 +0000] "GET /css/DataTables-1.10.25/images/sort_both.png HTTP/1.1" 404 bytesIn:1870 bytesOut:6900 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:43:19 +0000] "GET /css/DataTables-1.10.25/images/sort_asc.png HTTP/1.1" 404 6901 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:43:19 +0000] "GET /css/DataTables-1.10.25/images/sort_asc.png HTTP/1.1" 404 bytesIn:1868 bytesOut:6901 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:43:19 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:43:19 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1872 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:43:19 +0000] "GET /smsEnviados?_=1627576999019 HTTP/1.1" 200 16268 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:43:19 +0000] "GET /smsEnviados?_=1627576999019 HTTP/1.1" 200 bytesIn:1857 bytesOut:16268 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:08 +0000] "GET /dashboard HTTP/1.1" 200 4689 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:08 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1975 bytesOut:4689 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:10 +0000] "GET /css/datatables.css HTTP/1.1" 200 2899 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:10 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1882 bytesOut:2899 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:10 +0000] "GET /js/ajax.js HTTP/1.1" 200 516 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:10 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1857 bytesOut:516 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:10 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:10 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1869 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:10 +0000] "GET /css/app.css HTTP/1.1" 200 337181 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:10 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1876 bytesOut:337181 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:10 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:10 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1866 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:11 +0000] "GET /smspan/public/images/sort_both.png HTTP/1.1" 404 6900 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:11 +0000] "GET /smspan/public/images/sort_both.png HTTP/1.1" 404 bytesIn:1861 bytesOut:6900 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:11 +0000] "GET /smspan/public/images/sort_asc.png HTTP/1.1" 404 6900 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:11 +0000] "GET /smspan/public/images/sort_asc.png HTTP/1.1" 404 bytesIn:1860 bytesOut:6900 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:11 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:11 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1872 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:11 +0000] "GET /smsEnviados?_=1627577230776 HTTP/1.1" 200 16267 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:11 +0000] "GET /smsEnviados?_=1627577230776 HTTP/1.1" 200 bytesIn:1858 bytesOut:16267 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:22 +0000] "GET /dashboard HTTP/1.1" 200 4689 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:22 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1992 bytesOut:4689 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /css/datatables.css HTTP/1.1" 200 2899 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1833 bytesOut:2899 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1819 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /js/ajax.js HTTP/1.1" 200 516 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1810 bytesOut:516 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1816 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /js/app.js HTTP/1.1" 200 131227 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /js/app.js HTTP/1.1" 200 bytesIn:1809 bytesOut:131227 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /css/app.css HTTP/1.1" 200 337181 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1825 bytesOut:337181 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /smspan/public/images/sort_both.png HTTP/1.1" 404 6900 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /smspan/public/images/sort_both.png HTTP/1.1" 404 bytesIn:1904 bytesOut:6900 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /smspan/public/images/sort_asc.png HTTP/1.1" 404 6900 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /smspan/public/images/sort_asc.png HTTP/1.1" 404 bytesIn:1903 bytesOut:6900 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:25 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:25 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1872 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /smsEnviados?_=1627577244591 HTTP/1.1" 200 16267 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:24 +0000] "GET /smsEnviados?_=1627577244591 HTTP/1.1" 200 bytesIn:1901 bytesOut:16267 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:47:41 +0000] "GET /smspan/public/images/sort_both.png HTTP/1.1" 404 6901 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:47:41 +0000] "GET /smspan/public/images/sort_both.png HTTP/1.1" 404 bytesIn:1927 bytesOut:6901 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:08 +0000] "GET /dashboard HTTP/1.1" 200 4689 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:08 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1992 bytesOut:4689 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /css/datatables.css HTTP/1.1" 200 2899 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1833 bytesOut:2899 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /js/ajax.js HTTP/1.1" 200 516 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1810 bytesOut:516 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1819 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /js/app.js HTTP/1.1" 200 131227 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /js/app.js HTTP/1.1" 200 bytesIn:1809 bytesOut:131227 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1816 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /css/app.css HTTP/1.1" 200 337181 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1825 bytesOut:337181 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /images/sort_both.png HTTP/1.1" 200 484 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /images/sort_both.png HTTP/1.1" 200 bytesIn:1890 bytesOut:484 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:11 +0000] "GET /smspan/public/images/sort_asc.png HTTP/1.1" 404 6900 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:11 +0000] "GET /smspan/public/images/sort_asc.png HTTP/1.1" 404 bytesIn:1903 bytesOut:6900 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:11 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:11 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1872 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /smsEnviados?_=1627577290625 HTTP/1.1" 200 16267 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:10 +0000] "GET /smsEnviados?_=1627577290625 HTTP/1.1" 200 bytesIn:1901 bytesOut:16267 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:41 +0000] "GET /dashboard HTTP/1.1" 200 4689 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:41 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1975 bytesOut:4689 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:43 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:43 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1882 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:43 +0000] "GET /images/sort_both.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:43 +0000] "GET /images/sort_both.png HTTP/1.1" 304 bytesIn:1932 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:43 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 444 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:43 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 bytesIn:1845 bytesOut:444 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:44 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:44 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1872 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:48:43 +0000] "GET /smsEnviados?_=1627577323465 HTTP/1.1" 200 16267 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:48:43 +0000] "GET /smsEnviados?_=1627577323465 HTTP/1.1" 200 bytesIn:1858 bytesOut:16267 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:50:54 +0000] "GET /dashboard HTTP/1.1" 200 4689 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:50:54 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1683 bytesOut:4689 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:50:56 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:50:56 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1590 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:50:56 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:50:56 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1577 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:50:56 +0000] "GET /js/ajax.js HTTP/1.1" 200 515 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:50:56 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1566 bytesOut:515 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:50:56 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:50:56 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1574 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:50:57 +0000] "GET /images/sort_both.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:50:57 +0000] "GET /images/sort_both.png HTTP/1.1" 304 bytesIn:1640 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:50:57 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:50:57 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 bytesIn:1639 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:00 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:00 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1580 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:02 +0000] "GET /dashboard HTTP/1.1" 200 4688 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:02 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1701 bytesOut:4688 reqTime:6
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:08 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:08 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1541 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /js/ajax.js HTTP/1.1" 200 516 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1518 bytesOut:516 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1527 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /js/app.js HTTP/1.1" 200 131227 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /js/app.js HTTP/1.1" 200 bytesIn:1517 bytesOut:131227 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1524 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:08 +0000] "GET /css/app.css HTTP/1.1" 200 337109 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:08 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1533 bytesOut:337109 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /images/sort_both.png HTTP/1.1" 200 484 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /images/sort_both.png HTTP/1.1" 200 bytesIn:1598 bytesOut:484 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:50:57 +0000] "GET /smsEnviados?_=1627577456932 HTTP/1.1" 200 16260 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:50:57 +0000] "GET /smsEnviados?_=1627577456932 HTTP/1.1" 200 bytesIn:1566 bytesOut:16260 reqTime:12
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 443 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 bytesIn:1597 bytesOut:443 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1580 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /smsEnviados?_=1627577469244 HTTP/1.1" 200 16267 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:09 +0000] "GET /smsEnviados?_=1627577469244 HTTP/1.1" 200 bytesIn:1609 bytesOut:16267 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:22 +0000] "GET /sendsms HTTP/1.1" 200 4963 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:22 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1657 bytesOut:4963 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:24 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:24 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1588 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:51:24 +0000] "GET /css/app.css HTTP/1.1" 200 337108 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:51:24 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1583 bytesOut:337108 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:52:14 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.22.0.1 - - [29/Jul/2021:16:52:14 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:53:03 +0000] "GET /sendsms HTTP/1.1" 200 4963 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:53:03 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1683 bytesOut:4963 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1588 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /js/ajax.js HTTP/1.1" 200 578 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1563 bytesOut:578 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81078 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1574 bytesOut:81078 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1572 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /css/app.css HTTP/1.1" 200 337108 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1583 bytesOut:337108 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /images/sort_both.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /images/sort_both.png HTTP/1.1" 304 bytesIn:1640 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 bytesIn:1639 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1578 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /smsNaoEnviados?_=1627577585335 HTTP/1.1" 200 4974 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:53:05 +0000] "GET /smsNaoEnviados?_=1627577585335 HTTP/1.1" 200 bytesIn:1567 bytesOut:4974 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:53:13 +0000] "GET /images/sort_desc.png HTTP/1.1" 200 442 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:53:13 +0000] "GET /images/sort_desc.png HTTP/1.1" 200 bytesIn:1554 bytesOut:442 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:01 +0000] "GET /sendsms HTTP/1.1" 200 4967 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:01 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1683 bytesOut:4967 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:02 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:02 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1588 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:02 +0000] "GET /js/ajax.js HTTP/1.1" 200 578 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:02 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1564 bytesOut:578 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:02 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81078 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:02 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1574 bytesOut:81078 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:02 +0000] "GET /js/app.js HTTP/1.1" 200 131227 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:02 +0000] "GET /js/app.js HTTP/1.1" 200 bytesIn:1565 bytesOut:131227 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:02 +0000] "GET /css/app.css HTTP/1.1" 200 337108 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:02 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1583 bytesOut:337108 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:02 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:02 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1572 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:03 +0000] "GET /images/sort_both.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:03 +0000] "GET /images/sort_both.png HTTP/1.1" 304 bytesIn:1640 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:03 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:03 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 bytesIn:1639 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:03 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:03 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1578 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:03 +0000] "GET /smsNaoEnviados?_=1627577763124 HTTP/1.1" 200 4980 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:03 +0000] "GET /smsNaoEnviados?_=1627577763124 HTTP/1.1" 200 bytesIn:1567 bytesOut:4980 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:09 +0000] "GET /dashboard HTTP/1.1" 200 4691 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:09 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1658 bytesOut:4691 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:12 +0000] "GET /smsEnviados?_=1627577771748 HTTP/1.1" 200 16266 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:12 +0000] "GET /smsEnviados?_=1627577771748 HTTP/1.1" 200 bytesIn:1566 bytesOut:16266 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:21 +0000] "GET /sendsms HTTP/1.1" 200 4967 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:21 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1950 bytesOut:4967 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:23 +0000] "GET /js/ajax.js HTTP/1.1" 200 577 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:23 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1858 bytesOut:577 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:56:23 +0000] "GET /smsNaoEnviados?_=1627577783094 HTTP/1.1" 200 4980 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:16:56:23 +0000] "GET /smsNaoEnviados?_=1627577783094 HTTP/1.1" 200 bytesIn:1860 bytesOut:4980 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:16:57:13 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.22.0.1 - - [29/Jul/2021:16:57:13 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:30 +0000] "GET /sendsms HTTP/1.1" 200 4967 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:30 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1975 bytesOut:4967 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1880 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /js/ajax.js HTTP/1.1" 200 578 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1856 bytesOut:578 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81078 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1866 bytesOut:81078 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1864 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /js/app.js HTTP/1.1" 200 131227 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /js/app.js HTTP/1.1" 200 bytesIn:1857 bytesOut:131227 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /css/app.css HTTP/1.1" 200 337108 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1875 bytesOut:337108 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /images/sort_both.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /images/sort_both.png HTTP/1.1" 304 bytesIn:1932 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 bytesIn:1931 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1870 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /smsNaoEnviados?_=1627578212248 HTTP/1.1" 200 4473 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:32 +0000] "GET /smsNaoEnviados?_=1627578212248 HTTP/1.1" 200 bytesIn:1859 bytesOut:4473 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:33 +0000] "GET /dashboard HTTP/1.1" 200 4691 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:33 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1950 bytesOut:4691 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:35 +0000] "GET /smsEnviados?_=1627578215680 HTTP/1.1" 200 16266 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:35 +0000] "GET /smsEnviados?_=1627578215680 HTTP/1.1" 200 bytesIn:1858 bytesOut:16266 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:41 +0000] "GET /images/sort_desc.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:41 +0000] "GET /images/sort_desc.png HTTP/1.1" 304 bytesIn:1932 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:54 +0000] "GET /dashboard HTTP/1.1" 200 4692 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:54 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1992 bytesOut:4692 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1833 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /js/ajax.js HTTP/1.1" 200 578 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1810 bytesOut:578 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1819 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /js/app.js HTTP/1.1" 200 131227 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /js/app.js HTTP/1.1" 200 bytesIn:1809 bytesOut:131227 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1816 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /css/app.css HTTP/1.1" 200 337109 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1825 bytesOut:337109 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /images/sort_both.png HTTP/1.1" 200 484 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /images/sort_both.png HTTP/1.1" 200 bytesIn:1890 bytesOut:484 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 443 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 bytesIn:1889 bytesOut:443 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:57 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:57 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1872 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /smsEnviados?_=1627578236618 HTTP/1.1" 200 16266 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:03:56 +0000] "GET /smsEnviados?_=1627578236618 HTTP/1.1" 200 bytesIn:1901 bytesOut:16266 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:06:26 +0000] "GET /dashboard HTTP/1.1" 200 4692 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:06:26 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1974 bytesOut:4692 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:06:27 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:06:27 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1881 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:06:27 +0000] "GET /js/ajax.js HTTP/1.1" 200 578 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:06:27 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1857 bytesOut:578 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:06:27 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:06:27 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1868 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:06:27 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:06:27 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1865 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:06:27 +0000] "GET /css/app.css HTTP/1.1" 200 337109 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:06:27 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1875 bytesOut:337109 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:06:28 +0000] "GET /images/sort_both.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:06:28 +0000] "GET /images/sort_both.png HTTP/1.1" 304 bytesIn:1931 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:06:28 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:06:28 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 bytesIn:1930 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:06:28 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:06:28 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1871 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:06:28 +0000] "GET /smsEnviados?_=1627578387911 HTTP/1.1" 200 68360 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:06:28 +0000] "GET /smsEnviados?_=1627578387911 HTTP/1.1" 200 bytesIn:1857 bytesOut:68360 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:06:36 +0000] "GET /dashboard HTTP/1.1" 200 4692 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:06:36 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1974 bytesOut:4692 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:06:38 +0000] "GET /favicon.ico HTTP/1.1" 200 296 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:06:38 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1870 bytesOut:296 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:06:38 +0000] "GET /smsEnviados?_=1627578397935 HTTP/1.1" 200 68360 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:06:38 +0000] "GET /smsEnviados?_=1627578397935 HTTP/1.1" 200 bytesIn:1857 bytesOut:68360 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:07:22 +0000] "GET /dashboard HTTP/1.1" 200 4692 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:07:22 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1991 bytesOut:4692 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:07:23 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:07:23 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1832 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /js/ajax.js HTTP/1.1" 200 578 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1809 bytesOut:578 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1818 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1815 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /js/app.js HTTP/1.1" 200 131227 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /js/app.js HTTP/1.1" 200 bytesIn:1808 bytesOut:131227 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:07:23 +0000] "GET /css/app.css HTTP/1.1" 200 337109 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:07:23 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1824 bytesOut:337109 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /images/sort_both.png HTTP/1.1" 200 484 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /images/sort_both.png HTTP/1.1" 200 bytesIn:1889 bytesOut:484 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 443 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 bytesIn:1888 bytesOut:443 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1871 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /smsEnviados?_=1627578444183 HTTP/1.1" 200 68360 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:07:24 +0000] "GET /smsEnviados?_=1627578444183 HTTP/1.1" 200 bytesIn:1900 bytesOut:68360 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:08:14 +0000] "GET /sendsms HTTP/1.1" 200 4967 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:08:14 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1948 bytesOut:4967 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:08:16 +0000] "GET /smsNaoEnviados?_=1627578496197 HTTP/1.1" 200 4473 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:08:16 +0000] "GET /smsNaoEnviados?_=1627578496197 HTTP/1.1" 200 bytesIn:1858 bytesOut:4473 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:09:06 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.22.0.1 - - [29/Jul/2021:17:09:06 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:09:37 +0000] "GET /smsEnviados HTTP/1.1" 200 68361 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:09:37 +0000] "GET /smsEnviados HTTP/1.1" 200 bytesIn:1903 bytesOut:68361 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:10:29 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.22.0.1 - - [29/Jul/2021:17:10:29 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:12:26 +0000] "GET /sendsms HTTP/1.1" 200 4967 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:12:26 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1974 bytesOut:4967 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:12:27 +0000] "GET /dashboard HTTP/1.1" 200 4692 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:12:27 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1948 bytesOut:4692 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1881 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /js/ajax.js HTTP/1.1" 200 608 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1857 bytesOut:608 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1868 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1865 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /css/app.css HTTP/1.1" 200 337109 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1875 bytesOut:337109 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /images/sort_both.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /images/sort_both.png HTTP/1.1" 304 bytesIn:1931 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 bytesIn:1930 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /smsEnviados?_=1627578749373 HTTP/1.1" 200 68360 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:12:29 +0000] "GET /smsEnviados?_=1627578749373 HTTP/1.1" 200 bytesIn:1857 bytesOut:68360 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:19 +0000] "GET /dashboard HTTP/1.1" 200 4692 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:19 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1991 bytesOut:4692 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:20 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:20 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1832 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:20 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:20 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1818 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:20 +0000] "GET /js/ajax.js HTTP/1.1" 200 578 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:20 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1809 bytesOut:578 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:20 +0000] "GET /css/app.css HTTP/1.1" 200 337109 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:20 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1824 bytesOut:337109 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:20 +0000] "GET /js/app.js HTTP/1.1" 200 131227 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:20 +0000] "GET /js/app.js HTTP/1.1" 200 bytesIn:1808 bytesOut:131227 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:20 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:20 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1815 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:21 +0000] "GET /images/sort_both.png HTTP/1.1" 200 484 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:21 +0000] "GET /images/sort_both.png HTTP/1.1" 200 bytesIn:1889 bytesOut:484 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:21 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 443 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:21 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 bytesIn:1888 bytesOut:443 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:21 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:21 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1871 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:21 +0000] "GET /smsEnviados?_=1627578860919 HTTP/1.1" 200 68360 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:21 +0000] "GET /smsEnviados?_=1627578860919 HTTP/1.1" 200 bytesIn:1900 bytesOut:68360 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:42 +0000] "GET /dashboard HTTP/1.1" 200 4692 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:42 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1991 bytesOut:4692 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:44 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:44 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1832 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:44 +0000] "GET /js/ajax.js HTTP/1.1" 200 586 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:44 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1809 bytesOut:586 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:44 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:44 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1818 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:44 +0000] "GET /css/app.css HTTP/1.1" 200 337109 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:44 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1824 bytesOut:337109 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:44 +0000] "GET /js/app.js HTTP/1.1" 200 131227 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:44 +0000] "GET /js/app.js HTTP/1.1" 200 bytesIn:1808 bytesOut:131227 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:44 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:44 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1815 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:14:45 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:14:45 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1871 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:28:50 +0000] "GET /smsEnviados HTTP/1.1" 200 68361 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:28:50 +0000] "GET /smsEnviados HTTP/1.1" 200 bytesIn:1929 bytesOut:68361 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:28:52 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/smsEnviados" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:28:52 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1873 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:29:41 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.22.0.1 - - [29/Jul/2021:17:29:41 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:30:16 +0000] "GET /dashboard HTTP/1.1" 200 4692 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:30:16 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1974 bytesOut:4692 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:30:18 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:30:18 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1881 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:30:18 +0000] "GET /js/ajax.js HTTP/1.1" 200 586 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:30:18 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1857 bytesOut:586 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:30:18 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:30:18 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1868 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:30:18 +0000] "GET /js/app.js HTTP/1.1" 200 131227 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:30:18 +0000] "GET /js/app.js HTTP/1.1" 200 bytesIn:1858 bytesOut:131227 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:30:18 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:30:18 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1865 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:30:18 +0000] "GET /css/app.css HTTP/1.1" 200 337109 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:30:18 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1875 bytesOut:337109 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:30:19 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:30:19 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1871 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:30:21 +0000] "GET /sendsms HTTP/1.1" 200 4966 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:30:21 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1949 bytesOut:4966 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:30:23 +0000] "GET /images/sort_both.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:30:23 +0000] "GET /images/sort_both.png HTTP/1.1" 304 bytesIn:1931 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:30:23 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 180 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:30:23 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 bytesIn:1929 bytesOut:180 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:30:23 +0000] "GET /smsNaoEnviados?_=1627579823210 HTTP/1.1" 200 4473 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:30:23 +0000] "GET /smsNaoEnviados?_=1627579823210 HTTP/1.1" 200 bytesIn:1858 bytesOut:4473 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:30:32 +0000] "GET /dashboard HTTP/1.1" 200 4692 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:30:32 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1948 bytesOut:4692 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:11 +0000] "GET /dashboard HTTP/1.1" 200 4692 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:11 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1974 bytesOut:4692 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:13 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:13 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1871 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:19 +0000] "GET /dashboard HTTP/1.1" 200 4692 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:19 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1991 bytesOut:4692 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:20 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:20 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1832 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:20 +0000] "GET /js/ajax.js HTTP/1.1" 200 578 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:20 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1809 bytesOut:578 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:20 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:20 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1818 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:20 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:20 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1815 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:20 +0000] "GET /css/app.css HTTP/1.1" 200 337109 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:20 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1824 bytesOut:337109 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:20 +0000] "GET /js/app.js HTTP/1.1" 200 131226 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:20 +0000] "GET /js/app.js HTTP/1.1" 200 bytesIn:1809 bytesOut:131226 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:21 +0000] "GET /images/sort_both.png HTTP/1.1" 200 484 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:21 +0000] "GET /images/sort_both.png HTTP/1.1" 200 bytesIn:1889 bytesOut:484 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:21 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 443 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:21 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 bytesIn:1888 bytesOut:443 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:21 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:21 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1871 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:21 +0000] "GET /smsEnviados?_=1627579880975 HTTP/1.1" 200 68360 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:21 +0000] "GET /smsEnviados?_=1627579880975 HTTP/1.1" 200 bytesIn:1900 bytesOut:68360 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:31 +0000] "GET /dashboard HTTP/1.1" 302 1554 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:31 +0000] "GET /dashboard HTTP/1.1" 302 bytesIn:637 bytesOut:1554 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:31 +0000] "GET /login HTTP/1.1" 200 3678 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:31 +0000] "GET /login HTTP/1.1" 200 bytesIn:1332 bytesOut:3678 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:31 +0000] "GET /js/app.js HTTP/1.1" 200 131227 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:31 +0000] "GET /js/app.js HTTP/1.1" 200 bytesIn:1195 bytesOut:131227 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:31 +0000] "GET /css/app.css HTTP/1.1" 200 337108 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:31 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1212 bytesOut:337108 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:32 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:32 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1258 bytesOut:295 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:35 +0000] "POST /login HTTP/1.1" 302 1573 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:35 +0000] "POST /login HTTP/1.1" 302 bytesIn:1607 bytesOut:1573 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:36 +0000] "GET /dashboard HTTP/1.1" 200 4689 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:36 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1407 bytesOut:4689 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1223 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81078 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1208 bytesOut:81078 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /js/ajax.js HTTP/1.1" 200 577 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1201 bytesOut:577 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /js/datatables.js HTTP/1.1" 200 194917 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1207 bytesOut:194917 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /images/sort_both.png HTTP/1.1" 200 484 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /images/sort_both.png HTTP/1.1" 200 bytesIn:1280 bytesOut:484 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 443 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /images/sort_asc.png HTTP/1.1" 200 bytesIn:1279 bytesOut:443 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /smsEnviados?_=1627579898678 HTTP/1.1" 200 68360 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:38 +0000] "GET /smsEnviados?_=1627579898678 HTTP/1.1" 200 bytesIn:1291 bytesOut:68360 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:31:44 +0000] "GET /smsEnviados HTTP/1.1" 200 68360 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:31:44 +0000] "GET /smsEnviados HTTP/1.1" 200 bytesIn:1338 bytesOut:68360 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:32:52 +0000] "GET /dashboard HTTP/1.1" 200 4690 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:32:52 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1406 bytesOut:4690 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:32:54 +0000] "GET /js/ajax.js HTTP/1.1" 200 584 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:32:54 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1292 bytesOut:584 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:32:54 +0000] "GET /smsEnviados?_=1627579974495 HTTP/1.1" 200 68360 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:32:54 +0000] "GET /smsEnviados?_=1627579974495 HTTP/1.1" 200 bytesIn:1291 bytesOut:68360 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:34:42 +0000] "GET /dashboard HTTP/1.1" 200 4690 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:34:42 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1406 bytesOut:4690 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:34:44 +0000] "GET /js/ajax.js HTTP/1.1" 200 584 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:34:44 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1292 bytesOut:584 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:34:44 +0000] "GET /smsEnviados?_=1627580084562 HTTP/1.1" 500 15931 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:34:44 +0000] "GET /smsEnviados?_=1627580084562 HTTP/1.1" 500 bytesIn:1291 bytesOut:15931 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:34:58 +0000] "GET /dashboard HTTP/1.1" 200 4690 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:34:58 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1406 bytesOut:4690 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:35:00 +0000] "GET /js/ajax.js HTTP/1.1" 200 577 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:35:00 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1292 bytesOut:577 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:35:00 +0000] "GET /smsEnviados?_=1627580100561 HTTP/1.1" 500 15931 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:35:00 +0000] "GET /smsEnviados?_=1627580100561 HTTP/1.1" 500 bytesIn:1291 bytesOut:15931 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:35:18 +0000] "GET /smsEnviados?_=1627580100561 HTTP/1.1" 500 629038 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:35:18 +0000] "GET /smsEnviados?_=1627580100561 HTTP/1.1" 500 bytesIn:1353 bytesOut:629038 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:35:23 +0000] "GET /smsEnviados HTTP/1.1" 500 629004 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:35:23 +0000] "GET /smsEnviados HTTP/1.1" 500 bytesIn:1337 bytesOut:629004 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:20 +0000] "GET /smsEnviados HTTP/1.1" 200 68361 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:20 +0000] "GET /smsEnviados HTTP/1.1" 200 bytesIn:1363 bytesOut:68361 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:24 +0000] "GET /dashboard HTTP/1.1" 200 4689 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:24 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1407 bytesOut:4689 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:26 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:26 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:1315 bytesOut:2886 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:26 +0000] "GET /js/ajax.js HTTP/1.1" 200 578 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:26 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1291 bytesOut:578 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:26 +0000] "GET /css/app.css HTTP/1.1" 200 337108 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:26 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:1310 bytesOut:337108 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:26 +0000] "GET /smsEnviados?_=1627580186630 HTTP/1.1" 200 68360 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:26 +0000] "GET /smsEnviados?_=1627580186630 HTTP/1.1" 200 bytesIn:1291 bytesOut:68360 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:49 +0000] "GET /dashboard HTTP/1.1" 200 4690 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:49 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1406 bytesOut:4690 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:50 +0000] "GET /js/ajax.js HTTP/1.1" 200 578 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:50 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1291 bytesOut:578 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:50 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81077 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:50 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:1302 bytesOut:81077 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:50 +0000] "GET /js/datatables.js HTTP/1.1" 200 194918 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:50 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:1299 bytesOut:194918 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:50 +0000] "GET /images/sort_both.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:50 +0000] "GET /images/sort_both.png HTTP/1.1" 304 bytesIn:1365 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:50 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:50 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 bytesIn:1364 bytesOut:179 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:50 +0000] "GET /smsEnviados?_=1627580210761 HTTP/1.1" 200 68853 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:50 +0000] "GET /smsEnviados?_=1627580210761 HTTP/1.1" 200 bytesIn:1291 bytesOut:68853 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:36:56 +0000] "GET /images/sort_desc.png HTTP/1.1" 200 441 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:36:56 +0000] "GET /images/sort_desc.png HTTP/1.1" 200 bytesIn:1280 bytesOut:441 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:37:36 +0000] "GET /dashboard HTTP/1.1" 200 4690 "http://localhost:7777/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:37:36 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:1406 bytesOut:4690 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:37:38 +0000] "GET /js/ajax.js HTTP/1.1" 200 577 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:37:38 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:1292 bytesOut:577 reqTime:0
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:37:38 +0000] "GET /smsEnviados?_=1627580258120 HTTP/1.1" 200 68859 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:37:38 +0000] "GET /smsEnviados?_=1627580258120 HTTP/1.1" 200 bytesIn:1291 bytesOut:68859 reqTime:2
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:37:44 +0000] "GET /sendsms HTTP/1.1" 200 4964 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:37:44 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1383 bytesOut:4964 reqTime:1
+docker.vm:80 172.22.0.1 - - [29/Jul/2021:17:37:46 +0000] "GET /smsNaoEnviados?_=1627580265944 HTTP/1.1" 200 4982 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[httpd:access] localhost:80 - - 172.22.0.1 - - [29/Jul/2021:17:37:46 +0000] "GET /smsNaoEnviados?_=1627580265944 HTTP/1.1" 200 bytesIn:1292 bytesOut:4982 reqTime:2

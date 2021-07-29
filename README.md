@@ -94,3 +94,23 @@ ELSEIF NEW.MultiPart = "TRUE" THEN
 SET NEW.MultiPart = 1;
 END IF;
 END;
+
+
+# DRIVER HUAWEI
+
+sudo -H gedit /lib/udev/rules.d/40-usb_modeswitch.rules
+
+//e adicionar uma linha ao arquivo
+
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="1505", RUN+="usb_modeswitch '%b/%k'"
+
+//Então corra
+
+sudo -H gedit /etc/usb_modeswitch.d/12d1:1505
+
+
+//E cole este texto no editor
+
+ TargetVendor= 0x12d1
+ TargetProduct= 0x1505
+ MessageContent="55534243123456780000000000000011062000000100000000000000000000"
