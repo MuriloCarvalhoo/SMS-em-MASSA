@@ -1,4 +1,0 @@
-# /etc/acpi/events/huawei-lidbtn
-
-event=button[ /]lid
-action=/etc/acpi/huawei-sleep.sh
