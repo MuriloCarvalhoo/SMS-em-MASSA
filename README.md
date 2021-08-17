@@ -79,7 +79,10 @@ RunOnFailure = /var/spool/gammu/on-error.sh
 mv /var/spool/gammu/outbox/$1 /var/spool/gammu/error
 
 
+Erro - GAMMU não consegue abrir dispositivo :
 
+service gammu-smsd restart
+service gammu-smsd status
 # MODIFICAÇÔES
 
 Tabela "outbox" campo "multipart" para varchar(6) e valor padrão para 0.

@@ -46,12 +46,12 @@ class SmsImport implements ToCollection, WithHeadingRow
 
                 Outbox::create([
 
+                    'CreatorID' => 'Gammu 1.41.0',
+                    'MultiPart' => 'true',
                     'DestinationNumber' => $row['numero'],
                     'TextDecoded' => $part1.'...',
                     'Coding' => 'Unicode_No_Compression',
                     'Class' => '1',
-                    'MultiPart' => 'true',
-                    'CreatorID' => 'Gammu 1.41.0',
                     //'UDH' => $udh,
                 ]);
 

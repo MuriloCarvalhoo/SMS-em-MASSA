@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<UpdateSetting>
+		<ConfigCycleDefault>14</ConfigCycleDefault>
+		<ConfigCycle1>1</ConfigCycle1>
+		<ConfigCycle2>7</ConfigCycle2>
+		<ConfigCycle3>14</ConfigCycle3>
+		<ConfigCycle4>30</ConfigCycle4>
+		<DonePage>none</DonePage>
+		<TimerMinutes>15</TimerMinutes>
+		<TimeRandomRange>720</TimeRandomRange>
+		<ShowNewestVersion>1</ShowNewestVersion>
+		<LanguageCode>1033</LanguageCode>
+		<Encrypt>IMSI-IMEI</Encrypt>
+		<SubmitField>IMEI</SubmitField>
+		<ComponentSelect>0</ComponentSelect>
+	</UpdateSetting>
+
+	<MainCompInfo>
+		<WinReg>SOFTWARE\\Huawei technologies\\Mobile Partner</WinReg>
+		<LinuxEtc>/etc/datacard_config</LinuxEtc>
+		<MacEtc></MacEtc>
+	</MainCompInfo>
+
+	<AutoSysTrayConfig>
+		<SilentUpd_DispTray>1</SilentUpd_DispTray>
+	</AutoSysTrayConfig>
+
+	<OucState>
+		<Quit>0</Quit>
+	</OucState>
+
+	<BalloonNotify>
+		<FindNewVersion>1</FindNewVersion>
+		<UpdateDownloaded>1</UpdateDownloaded>
+	</BalloonNotify>
+
+	<AutoShrinkToTray>
+		<CheckNewVersion>0</CheckNewVersion>
+		<DownloadNewVersion>3</DownloadNewVersion>
+		<CycleAutoShrink>0</CycleAutoShrink>
+	</AutoShrinkToTray>
+
+	<URL>
+		<QueryUrl>/UrlCommand/CheckNewVersion.aspx</QueryUrl>
+		<SubmitUrl>/UrlCommand/UpdateDone.aspx</SubmitUrl>
+		<TestUrl>/UrlCommand/test.aspx</TestUrl>
+	</URL>
+
+	<LOG>
+		<LogSwitch>1</LogSwitch>
+	</LOG>
+
+	<AliasName>
+		<LID_1033>en-us</LID_1033>
+		<LID_2052>zh-cn</LID_2052>
+		<LID_1038>hu</LID_1038>
+		<LID_1071>mk</LID_1071>
+		<LID_1045>pl</LID_1045>
+		<LID_2074>sr-sp</LID_2074>
+		<LID_1051>sk</LID_1051>
+		<LID_1050>hr</LID_1050>
+		<LID_1029>cs</LID_1029>
+		<LID_1043>nl-nl</LID_1043>
+		<LID_1031>de-de</LID_1031>
+		<LID_13313>ar</LID_13313>
+		<LID_11274>es-ar</LID_11274>
+		<LID_3082>es-es</LID_3082>
+		<LID_1036>fr-fr</LID_1036>
+		<LID_1040>it-it</LID_1040>
+		<LID_1046>pt-br</LID_1046>
+		<LID_2070>pt-pt</LID_2070>
+		<LID_1049>ru</LID_1049>
+		<LID_1048>ro</LID_1048>
+		<LID_1026>bg</LID_1026>
+		<LID_3076>zh-hk</LID_3076>
+		<LID_1030>da</LID_1030>
+		<LID_1061>et</LID_1061>
+		<LID_1035>fi</LID_1035>
+		<LID_1032>el</LID_1032>
+		<LID_1037>he</LID_1037>
+		<LID_1057>id</LID_1057>
+		<LID_1041>ja</LID_1041>
+		<LID_1042>ko</LID_1042>
+		<LID_1062>lv</LID_1062>
+		<LID_1044>no</LID_1044>
+		<LID_1060>sl</LID_1060>
+		<LID_1053>sv-se</LID_1053>
+		<LID_1028>zh-tw</LID_1028>
+		<LID_1055>tr</LID_1055>
+		<LID_1058>uk</LID_1058>
+	</AliasName>
+
+	<Version>
+		<VALUE>21.003.37.00.03</VALUE>
+	</Version>
+
+	<Remark>
+		1,for Cycle item, day unit, [1, 10000].
+		2,for DonePage item, using reboot, none.
+		3,for TimerMinutes item, range [1, 400].
+		4,for skin item, fill file name and the default wnd of the file
+	</Remark>
+</root>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<utpsdoc type="resource">
+
+<module name="NetConnectPlugin">
+<item name="IDS_SETTING_STATIC_GROUP_NETWORK_CONNECT_SELECT">Nome do perfil</item>
+<item name="IDS_SETTING_STATIC_GROUP_VALIDATE">Autenticação</item>
+<item name="IDS_SETTING_STATIC_NUMBER">Número de acesso:</item>
+<item name="IDS_SETTING_STATIC_USENAME">Nome do usuário:</item>
+<item name="IDS_SETTING_STATIC_PASSWORD">Senha:</item>
+<item name="IDS_SETTING_STATIC_GROUP_APN_IP">Configurações IP</item>
+<item name="IDS_SETTING_RADIO_APN_IP_DYNAMIC">Dinâmico</item>
+<item name="IDS_SETTING_RADIO_APN_IP_STATIC">Estático</item>
+<item name="IDS_SETTING_STATIC_IP">IP:</item>
+<item name="IDS_SETTING_BUTTON_HIGH">Avançado...</item>
+<item name="IDS_SETTING_BUTTON_NEW">Novo</item>
+<item name="IDS_SETTING_BUTTON_DELETE">Excluir</item>
+<item name="IDS_SETTING_BUTTON_EDIT">Editar</item>
+<item name="IDS_SETTING_BUTTON_SAVE">Salvar</item>
+<item name="IDS_SETTING_BUTTON_NO_SAVE">Desfazer</item>
+<item name="IDS_CRIT_CAPTION">Erro fatal</item>
+<item name="IDS_WARN_CAPTION">Aviso</item>
+<item name="IDS_ERROR_CAPTION">Erro</item>
+<item name="IDS_PROMPT_CAPTION">Prompt</item>
+<item name="IDS_SMSUI_DRAFT_DEL">Deseja excluir este perfil?</item>
+<item name="IDS_SETTING_PROMPT_APN_ERROR">APN inválido.</item>
+<item name="IDS_SETTING_QUERY_USER_TO_SAVE">Deseja salvar as alterações?</item>
+<item name="IDS_BUTTON_OK">OK</item>
+<item name="IDS_BUTTON_CANCEL">Cancelar</item>
+<item name="IDS_SETTING_STATIC_APN_NAME">APN:</item>
+<item name="IDS_SETTING_STATIC_DNS">DNS primário:</item>
+<item name="IDS_SETTING_STATIC_DNS_SECOND">DNS secundário:</item>
+<item name="IDS_SETTING_STATIC_WINS1">WINS primário:</item>
+<item name="IDS_SETTING_STATIC_WINS_SECOND">WINS secundário:</item>
+<item name="IDS_SETTING_STATIC_SET_DNS">Configurações DNS</item>
+<item name="IDS_SETTING_STATIC_SET_WINS">Configurações WINS</item>
+<item name="IDS_SETTING_PROMPT_DNS_IP">Endereço IP inválido para o DNS.</item>
+<item name="IDS_SETTING_PROMPT_WINS_IP">Endereço IP inválido para o WINS.</item>
+<item name="IDS_SETTING_PROMPT_APN_NAME">APN não pode ser vazio.</item>
+<item name="IDS_SETTING_PROMPT_PROFILE_NAME">Nome de perfil não pode ficar vazio.</item>
+<item name="IDS_SETTING_STATIC_GROUP_NETWORK_CONNECT_EDIT">Nome do perfil</item>
+<item name="IDS_SETTING_PROMPT_PROFILE_NAME_SAME">Já existe um perfil com esse nome.</item>
+<item name="IDS_SETTING_PROMPT_APN_IP">Endereço IP inválido</item>
+<item name="IDS_SETTING_PROMPT_SAVE_FAILURE">Perfil não foi salvo.</item>
+<item name="IDS_SETTING_GROUP_Authentication_protocol">Configurações do protocolo de autenticação</item>
+<item name="IDS_SETTING_CHECK_CHAP">CHAP</item>
+<item name="IDS_SETTING_CHECK_PAP">PAP</item>
+<item name="IDS_SETTING_BROWSE_TELEPHLONE">Procurar...</item>
+<item name="IDS_PLUGIN_NAME">NetConnectPlugin</item>
+<item name="IDS_SETTING_NAME">Gerenciamento de perfil</item>
+<item name="IDS_NEWPROFILE">Novo perfil</item>
+<item name="IDS_TITLE_CONNECTMSGDLG">Prompt de conexão de rede</item>
+
+<item name="IDS_BTN_CONNECTMSGDLG_REDIAL">Rediscar</item>
+
+<item name="IDS_MSG_CONNECTSETTINGDLG_NEWERR">Novo perfil não foi criado.</item>
+<item name="IDS_MSG_CONNECTSETTINGDLG_NULLNUMBER">Número não pode ficar vazio.</item>
+<item name="IDS_MSG_CONNECTSETTINGDLG_PROFILENAMEERR">Nome de perfil não pode ter nenhum dos seguintes caracteres:</item>
+<item name="IDS_NET_TIPS_CANCELCONNECT">Cancelando...</item>
+
+<item name="IDS_NET_TIPS_DISCONNECT">Desconectando...</item>
+
+<item name="IDS_BTN_WLANSETTINGDLG_SCAN">Verificar</item>
+<item name="IDS_STC_WLANSETTINGDLG_PROFILE">Nome do perfil:</item>
+<item name="IDS_STC_WLANSETTINGDLG_NETWORK">Nome de rede:</item>
+<item name="IDS_STC_WLANSETTINGDLG_MODE">Modo de rede:</item>
+<item name="IDS_STC_WLANSETTINGDLG_CHANNEL">Canal:</item>
+<item name="IDS_STC_WLANSETTINGDLG_MODE_INFRA">Modo de infra-estrutura</item>
+<item name="IDS_STC_WLANSETTINGDLG_MODE_P2P">Modo de criação de ponto-a-ponto</item>
+<item name="IDS_STC_WLANSETTINGDLG_CHANNEL_AUTO">Automático</item>
+<item name="IDS_WLANSCANDLG_CAPTION">Verificação de WLAN</item>
+<item name="IDS_LIST_COLUMN_WLANSCANDLG_SSID">Nome de rede</item>
+<item name="IDS_LIST_COLUMN_WLANSCANDLG_SIGNAL">Força do sinal</item>
+<item name="IDS_LIST_COLUMN_WLANSCANDLG_MODE">Modo de rede</item>
+<item name="IDS_STC_WLANSCANDLG_DEVICE">Dispositivo:</item>
+<item name="IDS_STC_DIALUPDLG_ADVANCE">Avançadas</item>
+<item name="IDS_BTN_DIALUPDLG_NETPROPERTY">Propriedades da conexão</item>
+<item name="IDS_BTN_DIALUPDLG_INTERNET">Opções de internet</item>
+<item name="IDS_TABPAGE_NETCONNECTSETTINGDLG_DIALUP">Dial-Up</item>
+<item name="IDS_TABPAGE_NETCONNECTSETTINGDLG_WLAN">WLAN</item>
+<item name="IDS_TREENODE_PROFILEINPUTDLG_DIALUP">Perfil dial-up</item>
+<item name="IDS_TREENODE_PROFILEINPUTDLG_WLAN">Perfil WLAN</item>
+<item name="IDS_BTN_NETCONNECTSETTINGDLG_DEFAULT">Padrão</item>
+<item name="IDS_STC_NETCONNECTSETTINGDLG_DEFAULT">(Padrão)</item>
+<item name="IDS_BTN_NETCONNECTSETTINGDLG_INPUT">Importar</item>
+<item name="IDS_BTN_NETCONNECTSETTINGDLG_OUTPUT">Exportar</item>
+<item name="IDS_NET_TIPS_SETDEFAULTPROFILE">Definir esta conexão como padrão?</item>
+<item name="IDS_NET_TIPS_PROFILEEXIST">Perfil já existe. Deseja substituí-lo?</item>
+<item name="WLAN_STATIC_WINCONFIG">Usar a configuração do Windows para definir rede sem fio.</item>
+<item name="IDS_STC_DIALUPDLG_DEFAULTDEVICE">Dispositivo de conexão padrão:</item>
+<item name="IDS_TITLE_IMPORTDLG">Importar</item>
+<item name="IDS_TITLE_EXPORTDLG">Exportar</item>
+<item name="IDS_NET_TIPS_ROAMSTOP">Você está para se conectar em uma rede fora da sua área de registro. Deseja continuar?</item>
+<item name="IDS_PROF_CHUNGHWA">Chunghwa Telecom</item>
+<item name="IDS_CONNECTAPN_NAME_TITLE">Conectar APN NAME</item>
+
+<item name="IDS_USER_NAME">Nome de usuário</item>
+
+<item name="IDS_PASSWORD">Senha</item>
+
+<item name="IDS_REMEMBER_MY_PASSWORD">Lembrar senha</item>
+
+<item name="IDS_OK">OK</item>
+<item name="IDS_CANCEL">Cancelar</item>
+<item name="IDS_USERNAME_AND_PASSWORD">Perguntar nome de usuário e senha?</item>
+<item name="IDS_USERNAME_AND_PWD_LEN_PROMPT">Nome de usuário e senha não podem ultrapassar 48 caracteres.</item>
+
+</module>
+</utpsdoc>

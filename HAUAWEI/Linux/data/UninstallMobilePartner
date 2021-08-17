@@ -1,0 +1,71 @@
+#!/bin/bash
+
+if [ `id | awk '{print $1}'` != "uid=0(root)" ]
+then
+    echo -e "{LYouMustBeRoot}"
+    echo -e "\n{LInstallEnd}"
+    read RESP
+    exit
+fi
+
+RUNP=`ps -ef |grep -v grep |grep MobilePartner.bin | awk '{print $2}'`
+
+if [ "x${RUNP}" != "x" ]
+then
+    echo -e "{LProgramRunning}"
+    echo -e "\n{LInstallEnd}"
+    read RESP
+    exit
+fi
+
+{INSTALLPATH}/driver/Uninstall
+#{INSTALLPATH}/autorun/huawei_autostart stop
+#{INSTALLPATH}/autorun/huawei_autostart uninstall
+rm -rf {INSTALLPATH}
+rm -rf /usr/local/hw_pppd
+grep -v MobilePartner.sh /etc/sudoers > /etc/sudoers.bak 2>&1
+sed -i "s/# ,{REQUIRETTY},{DELETECOMMENT}/{REQUIRETTY}/g" /etc/sudoers.bak 2>/dev/null
+cp -f /etc/sudoers.bak /etc/sudoers
+rm -f /etc/sudoers.bak
+if [ -d /root/Desktop ]
+then
+    rm -rf /root/Desktop/MobilePartner.desktop
+else
+    rm -rf /root/MobilePartner.desktop
+fi
+rm -rf /usr/share/applications/MobilePartner.desktop
+rm -rf /usr/share/applications/UninstallMobilePartner.desktop
+if [ -f {CONFIG_FILE} ]
+then
+    rm -rf {CONFIG_FILE}
+fi
+
+#removing /etc/pm/sleep.d/67hw_hook
+rm -f /etc/pm/sleep.d/67hw_hook
+
+
+#DTS2010123003200 begin add by d00135750 2011-2-17 Refresh the Ubunto Menu Items After Uninstall
+updatemenu()
+{
+    UBUNTURELEASE=`grep Ubuntu /etc/issue 2>&1 | awk -F ' ' '{printf $1}'`
+    if [ "x${UBUNTURELEASE}" = "xUbuntu" ]
+    then
+	if [ -f /usr/share/gnome-menus/update-gnome-menus-cache ]		
+        then            
+		for CACHE_FILE in ls /usr/share/applications/desktop.*.cache
+		do
+		    if [ -f ${CACHE_FILE} ]; then
+		    aa=`ls -l ${CACHE_FILE}|awk '{print substr($1, 2)}'|sed 's/-/0/g'|sed 's/r/1/g'|sed 's/w/1/g'|sed 's/x/1/g'`
+		    chmod 777 ${CACHE_FILE}	    
+		    /usr/share/gnome-menus/update-gnome-menus-cache /usr/share/applications/ > ${CACHE_FILE}   	    
+		    bb=$(echo "obase=8;ibase=2;$aa"|bc)
+        	    chmod ${bb} ${CACHE_FILE}		
+		fi
+		done
+        fi
+
+    fi
+}
+updatemenu
+#DTS2010123003200 end add by d00135750 2011-2-17 Refresh the Ubunto Menu Items After Uninstall
+

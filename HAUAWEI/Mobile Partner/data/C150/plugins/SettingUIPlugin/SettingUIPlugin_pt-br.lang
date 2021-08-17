@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="SettingUIPlugin">
+<item name="IDS_BUTTON_OK">OK</item>
+<item name="IDS_BUTTON_CANCEL">Cancelar</item>
+<item name="IDS_DIALOG_TITLE">Opções</item>
+<item name="IDS_CRIT_CAPTION">Erro fatal</item>
+<item name="IDS_WARN_CAPTION">Aviso</item>
+<item name="IDS_ERROR_CAPTION">Erro</item>
+<item name="IDS_PROMPT_CAPTION">Prompt</item>
+<item name="IDS_OPERATION_PROCESS">Operação em processamento, por favor, aguarde...</item>
+<item name="IDS_SETTING_NAME">Geral</item>
+<item name="IDS_SETTING_CHECK_STARTUP_AUTO">Executar na inicialização do OS</item>
+ <item name="IDS_SETTING_CHECK_DEV_AVAILABLE">Iniciar quando o dispositivo estiver disponível</item>
+<item name="IDS_SETTING_CHECK_STARTUP_MIN">Minimizar janela ao iniciar</item>
+<item name="IDS_SETTING_STATIC_GROUP_STARTUP">Inicialização</item>
+<item name="IDS_CONNECT_TYPE_GROUP">Tipo de conexão</item>
+<item name="IDS_CONNECT_TYPE_CHECK_RSA">RAS(modem)</item>
+<item name="IDS_CONNECT_TYPE_CHECK_NDIS">NDIS</item>
+<item name="IDS_ANTIVIRUS_RUN_GROUP">Lançamento automático</item>
+<item name="IDS_CHECK_TREND">Trend Micro USB Security</item>
+<item name="IDS_SETTING_CHECK_SHOWHOMEPAGE">Exibir Página Inicial</item>
+</module>
+</utpsdoc>

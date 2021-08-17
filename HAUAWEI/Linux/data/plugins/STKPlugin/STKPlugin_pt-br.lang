@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="STKPlugin">
+<item name="IDS_STK_TITLE">Kit de ferramentas do SIM</item>
+<item name="IDS_STK_BTN_BACK">&lt; Voltar</item>
+<item name="IDS_STK_BTN_SELECT">Selecionar</item>
+<item name="IDS_STK_BTN_CLOSE">Fechar</item>
+<item name="IDS_STK_BTN_OK">OK</item>
+<item name="IDS_STK_BTN_CANCEL">Cancelar</item>
+<item name="IDS_STK_MSG_PROMPT">Prompt</item>
+<item name="IDS_STK_MSG_INPUTFAILED">Falha na entrada.</item>
+</module>
+</utpsdoc>
