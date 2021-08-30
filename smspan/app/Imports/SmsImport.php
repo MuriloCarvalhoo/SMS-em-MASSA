@@ -47,10 +47,10 @@ class SmsImport implements ToCollection, WithHeadingRow
                 Outbox::create([
 
                     'CreatorID' => 'Gammu 1.41.0',
-                    'MultiPart' => 'true',
+                    'MultiPart' => true,
                     'DestinationNumber' => $row['numero'],
                     'TextDecoded' => $part1.'...',
-                    'Coding' => 'Unicode_No_Compression',
+                    'Coding' => 'Default_No_Compression',
                     'Class' => '1',
                     //'UDH' => $udh,
                 ]);
@@ -64,7 +64,7 @@ class SmsImport implements ToCollection, WithHeadingRow
                     'SequencePosition' => '2',
                     //'UDH' => $udh2,
                     'Class' => '1',
-                    'Coding' => 'Unicode_No_Compression',
+                    'Coding' => 'Default_No_Compression',
                     'TextDecoded' => $part2,
                     'ID' => $nextId,
                 ]);
@@ -82,9 +82,9 @@ class SmsImport implements ToCollection, WithHeadingRow
                 'SendBefore' => '23:59:59',
                 'SendAfter' => '00:00:00',
                 'Text' => '',
-                'Coding' => 'Unicode_No_Compression',
+                'Coding' => 'Default_No_Compression',
                 'Class' => '-1',
-                'MultiPart' => 'true',
+                'MultiPart' => false,
                 'RelativeValidity' => '255',
                 'SendingTimeOut' => date('Y-m-d H:i:s'),
                 'DeliveryReport' => 'default',

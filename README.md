@@ -24,17 +24,15 @@ sudo nano /etc/gammu-smsdrc
 # Copie e cole:
 
 [gammu]
+# Please configure this!
 
 port = /dev/ttyUSB0
-
 connection = at
 
-// Debugging
+# Debugging
+#logformat = textall
 
-logformat = textall
-
-//SMSD configuration, see gammu-smsdrc
-
+# SMSD configuration, see gammu-smsdrc(5)
 [smsd]
 
 PIN = 3636
@@ -45,14 +43,30 @@ driver = native_mysql
 
 logfile = /var/log/smsd
 
-host = chatbox.cxeefirnfcvu.us-east-2.rds.amazonaws.com
+host = 172.25.0.1:8307
 
 user = admin
 
-password = 12345678
+password = 123456
 
 database = smspan_db
+CheckBattery = 0
+CheckSecurity = 0
 
+ReceiveFrequency = 5
+RetryTimeout = 60
+
+
+# Increase for debugging information
+debuglevel = 0
+
+# Paths where messages are stored
+inboxpath = /var/spool/gammu/inbox/
+outboxpath = /var/spool/gammu/outbox/
+sentsmspath = /var/spool/gammu/sent/
+errorsmspath = /var/spool/gammu/error/
+
+RunOnFailure = /var/spool/gammu/on-error.sh
 
 # ERROS 
 
