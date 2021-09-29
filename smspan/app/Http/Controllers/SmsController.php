@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 use App\Models\Outbox;
 use App\Models\Phones;
 use App\Models\Sentitems;
-use App\Models\SmsPan;
+use App\Models\Sms;
 use Illuminate\Support\Facades\Response;
 
-class SmsPanController extends Controller
+class SmsController extends Controller
 {
 
     public function index()

@@ -10,6 +10,13 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
                     Mensagens enviadas:
+                    <br/>
+                    <br/>
+                    <strong>STATUS:</strong>
+                    <br/>
+                    <strong>-1</strong> = SMS Enviado
+                     <br/>
+                     <strong>500</strong> = Erro SMS não enviado
                 </div>
                 <table class="table table-striped" id="tableInbox" style="width:100%">
                     <thead>
@@ -17,6 +24,8 @@
                         <th class="w-1/4 border border-black-600 p-1">Numero</th>
                         <th class="w-1/2 border border-black-600 p-1">Texto</th>
                         <th class="w-1/4 border border-black-600 p-1">Enviado</th>
+                        <th class="w-1/4 border border-black-600 p-1">Status</th>
+
                       </tr>
                     </thead>
                   </table>

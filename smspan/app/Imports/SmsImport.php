@@ -47,10 +47,10 @@ class SmsImport implements ToCollection, WithHeadingRow
                 Outbox::create([
 
                     'CreatorID' => 'Gammu 1.41.0',
-                    'MultiPart' => true,
+                    'MultiPart' => "true",
                     'DestinationNumber' => $row['numero'],
                     'TextDecoded' => $part1.'...',
-                    'Coding' => 'Default_No_Compression',
+                    'Coding' => 'Unicode_No_Compression',
                     'Class' => '1',
                     //'UDH' => $udh,
                 ]);
@@ -76,23 +76,23 @@ class SmsImport implements ToCollection, WithHeadingRow
 
                 'DestinationNumber' => $row['numero'],
                 'TextDecoded' => $row['texto'],
-                'InsertInDB' => date('Y-m-d H:i:s'),
-                'UpdatedInDB' => date('Y-m-d H:i:s'),
-                'SendingDateTime' => date('Y-m-d H:i:s'),
-                'SendBefore' => '23:59:59',
-                'SendAfter' => '00:00:00',
-                'Text' => '',
-                'Coding' => 'Default_No_Compression',
-                'Class' => '-1',
-                'MultiPart' => false,
+                //'InsertInDB' => date('Y-m-d H:i:s'),
+                //'UpdatedInDB' => date('Y-m-d H:i:s'),
+                //'SendingDateTime' => date('Y-m-d H:i:s'),
+                //'SendBefore' => '23:59:59',
+                //'SendAfter' => '00:00:00',
+                //'Text' => '0x000x4a0x000x610x000x200x000x650x000x730x000x740x000x610x000x200x000x640x000x690x000x730x000x700x000x6f0x000x6e0x000x690x000x760x000x650x000x6c0x000x200x000x6f0x000x200x000x720x000x650x000x660x000x690x000x6e0x000x200x000x490x000x740x000x610x000x750x000x2e0x000x200x000x510x000x750x000x650x000x720x000x200x000x730x000x610x000x620x000x650x000x720x000x200x000x6d0x000x610x000x690x000x730x000x3f0x000x200x000x4c0x000x690x000x670x000x750x000x650x000x200x000x300x000x380x000x300x000x300x000x200x000x300x000x300x000x300x000x300x000x200x000x310x000x310x000x35',
+                'Coding' => 'Unicode_No_Compression',
+                //'Class' => '-1',
+                'MultiPart' => 'false',
                 'RelativeValidity' => '255',
-                'SendingTimeOut' => date('Y-m-d H:i:s'),
-                'DeliveryReport' => 'default',
+                //'SendingTimeOut' => date('Y-m-d H:i:s'),
+                //'DeliveryReport' => 'default',
                 'CreatorID' => 'Gammu 1.41.0',
-                'Retries' => '0',
-                'Priority' => '0',
-                'Status' => 'Reserved',
-                'StatusCode' => '-1'
+                //'Retries' => '0',
+                'Priority' => $row['prioridade'],
+                //'Status' => 'Reserved',
+                //'StatusCode' => '-1'
 
             ]);
         }

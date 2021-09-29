@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Outbox;
 use App\Models\Phones;
 use App\Models\Sentitems;
-use App\Models\SmsPan;
+use App\Models\Sms;
 use App\Imports\SmsImport;
 use App\Imports\SmsExport;
 use App\Models\OutboxMultipart;
@@ -49,7 +49,5 @@ class SendSMSController extends Controller
 
         return back();
     }
-
-
 
 }

@@ -10,6 +10,8 @@ $(function () {
             { data: 'DestinationNumber' },
             { data: 'TextDecoded' },
             { data: 'InsertIntoDB' },
+            { data: 'StatusCode' },
+
         ]
     });
 });
@@ -23,6 +25,7 @@ $(function () {
             { data: 'DestinationNumber' },
             { data: 'TextDecoded' },
             { data: 'InsertIntoDB' },
+            { data: 'StatusCode' },
         ]
     });
 });
