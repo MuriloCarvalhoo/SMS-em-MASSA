@@ -4436,3 +4436,673 @@ docker.vm:80 172.28.0.1 - - [29/Sep/2021:12:00:58 +0000] "GET /favicon.ico HTTP/
 [httpd:access] localhost:80 - - 172.28.0.1 - - [29/Sep/2021:12:00:58 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2087 bytesOut:295 reqTime:0
 docker.vm:80 172.28.0.1 - - [29/Sep/2021:12:01:48 +0000] "-" 408 0 "-" "-"
 [httpd:access] docker.vm:80 - - 172.28.0.1 - - [29/Sep/2021:12:01:48 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /sendsms HTTP/1.1" 200 5042 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1421 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /css/datatables.css HTTP/1.1" 200 2886 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /css/datatables.css HTTP/1.1" 200 bytesIn:2097 bytesOut:2886 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /js/ajax.js HTTP/1.1" 200 591 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /js/ajax.js HTTP/1.1" 200 bytesIn:2073 bytesOut:591 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 81078 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /js/jquery-3.3.1.js HTTP/1.1" 200 bytesIn:2083 bytesOut:81078 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /js/app.js HTTP/1.1" 200 131227 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /js/app.js HTTP/1.1" 200 bytesIn:2074 bytesOut:131227 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /js/datatables.js HTTP/1.1" 200 194917 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /js/datatables.js HTTP/1.1" 200 bytesIn:2082 bytesOut:194917 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /css/app.css HTTP/1.1" 200 337109 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:18:52:27 +0000] "GET /css/app.css HTTP/1.1" 200 bytesIn:2091 bytesOut:337109 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:18:52:28 +0000] "GET /images/sort_both.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:18:52:28 +0000] "GET /images/sort_both.png HTTP/1.1" 304 bytesIn:2149 bytesOut:179 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:18:52:28 +0000] "GET /smsNaoEnviados?_=1633459947995 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:18:52:28 +0000] "GET /smsNaoEnviados?_=1633459947995 HTTP/1.1" 200 bytesIn:2076 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:18:52:28 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 179 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:18:52:28 +0000] "GET /images/sort_asc.png HTTP/1.1" 304 bytesIn:2148 bytesOut:179 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:18:52:28 +0000] "GET /favicon.ico HTTP/1.1" 304 178 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:18:52:28 +0000] "GET /favicon.ico HTTP/1.1" 304 bytesIn:2128 bytesOut:178 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:27:44 +0000] "POST /import HTTP/1.1" 302 1570 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:27:44 +0000] "POST /import HTTP/1.1" 302 bytesIn:39458 bytesOut:1570 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:27:45 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:27:45 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2484 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:27:45 +0000] "GET /smsNaoEnviados?_=1633462065484 HTTP/1.1" 200 166292 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:27:45 +0000] "GET /smsNaoEnviados?_=1633462065484 HTTP/1.1" 200 bytesIn:2369 bytesOut:166292 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:27:56 +0000] "GET /images/sort_desc.png HTTP/1.1" 304 180 "http://localhost:7777/css/datatables.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:27:56 +0000] "GET /images/sort_desc.png HTTP/1.1" 304 bytesIn:2441 bytesOut:180 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:28:00 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:28:00 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2484 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:28:00 +0000] "GET /smsNaoEnviados?_=1633462080331 HTTP/1.1" 200 166299 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:28:00 +0000] "GET /smsNaoEnviados?_=1633462080331 HTTP/1.1" 200 bytesIn:2369 bytesOut:166299 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:28:00 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:28:00 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2380 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:28:09 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:28:09 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2483 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:28:09 +0000] "GET /smsNaoEnviados?_=1633462089534 HTTP/1.1" 200 165216 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:28:09 +0000] "GET /smsNaoEnviados?_=1633462089534 HTTP/1.1" 200 bytesIn:2369 bytesOut:165216 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:28:09 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:28:09 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2380 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:29:01 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:19:29:01 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:29:07 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:29:07 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2483 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:29:07 +0000] "GET /smsNaoEnviados?_=1633462147233 HTTP/1.1" 200 165236 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:29:07 +0000] "GET /smsNaoEnviados?_=1633462147233 HTTP/1.1" 200 bytesIn:2369 bytesOut:165236 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:29:07 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:29:07 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2380 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:29:42 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:29:42 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2472 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:29:42 +0000] "GET /smsNaoEnviados?_=1633462182592 HTTP/1.1" 200 164685 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:29:42 +0000] "GET /smsNaoEnviados?_=1633462182592 HTTP/1.1" 200 bytesIn:2358 bytesOut:164685 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:29:43 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:29:43 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2369 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:29:59 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:29:59 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2472 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:29:59 +0000] "GET /smsNaoEnviados?_=1633462199321 HTTP/1.1" 200 164678 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:29:59 +0000] "GET /smsNaoEnviados?_=1633462199321 HTTP/1.1" 200 bytesIn:2358 bytesOut:164678 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:29:59 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:29:59 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2369 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:30:50 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:19:30:50 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:31:40 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:31:40 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2472 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:31:40 +0000] "GET /smsNaoEnviados?_=1633462300625 HTTP/1.1" 200 152582 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:31:40 +0000] "GET /smsNaoEnviados?_=1633462300625 HTTP/1.1" 200 bytesIn:2358 bytesOut:152582 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:31:41 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:31:41 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2369 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:32:31 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:19:32:31 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:32:57 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:32:57 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2476 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:32:57 +0000] "GET /smsNaoEnviados?_=1633462377171 HTTP/1.1" 200 145443 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:32:57 +0000] "GET /smsNaoEnviados?_=1633462377171 HTTP/1.1" 200 bytesIn:2362 bytesOut:145443 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:32:57 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:32:57 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:32:59 +0000] "GET /dashboard HTTP/1.1" 200 4777 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:32:59 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2453 bytesOut:4777 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:32:59 +0000] "GET /smsEnviados?_=1633462379875 HTTP/1.1" 200 198499 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:32:59 +0000] "GET /smsEnviados?_=1633462379875 HTTP/1.1" 200 bytesIn:2361 bytesOut:198499 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:33:48 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:19:33:48 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:35:49 +0000] "GET /dashboard HTTP/1.1" 200 4778 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:35:49 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2478 bytesOut:4778 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:35:49 +0000] "GET /smsEnviados?_=1633462549292 HTTP/1.1" 200 218974 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:35:49 +0000] "GET /smsEnviados?_=1633462549292 HTTP/1.1" 200 bytesIn:2361 bytesOut:218974 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:35:49 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:35:49 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2375 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:36:40 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:19:36:40 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:41:49 +0000] "GET /dashboard HTTP/1.1" 200 4778 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:41:49 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2470 bytesOut:4778 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:41:49 +0000] "GET /smsEnviados?_=1633462909167 HTTP/1.1" 200 259303 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:41:49 +0000] "GET /smsEnviados?_=1633462909167 HTTP/1.1" 200 bytesIn:2353 bytesOut:259303 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:41:49 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:19:41:49 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2367 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:19:42:40 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:19:42:40 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:02:18 +0000] "GET /dashboard HTTP/1.1" 200 4778 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:02:18 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2467 bytesOut:4778 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:02:18 +0000] "GET /smsEnviados?_=1633464138827 HTTP/1.1" 200 1660 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:02:18 +0000] "GET /smsEnviados?_=1633464138827 HTTP/1.1" 200 bytesIn:2350 bytesOut:1660 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:02:19 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:02:19 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2364 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:02:21 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:02:21 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2442 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:02:21 +0000] "GET /smsNaoEnviados?_=1633464141199 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:02:21 +0000] "GET /smsNaoEnviados?_=1633464141199 HTTP/1.1" 200 bytesIn:2351 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:02:26 +0000] "POST /import HTTP/1.1" 302 1570 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:02:26 +0000] "POST /import HTTP/1.1" 302 bytesIn:40292 bytesOut:1570 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:02:27 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:02:27 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:02:27 +0000] "GET /smsNaoEnviados?_=1633464147076 HTTP/1.1" 200 167265 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:02:27 +0000] "GET /smsNaoEnviados?_=1633464147076 HTTP/1.1" 200 bytesIn:2351 bytesOut:167265 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:02:34 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:02:34 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2465 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:02:34 +0000] "GET /smsNaoEnviados?_=1633464154916 HTTP/1.1" 200 167273 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:02:34 +0000] "GET /smsNaoEnviados?_=1633464154916 HTTP/1.1" 200 bytesIn:2351 bytesOut:167273 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:02:35 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:02:35 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:03:26 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:03:26 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:09:10 +0000] "GET /sendsms HTTP/1.1" 200 5042 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:09:10 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2425 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:09:11 +0000] "GET /smsNaoEnviados?_=1633464550995 HTTP/1.1" 200 165064 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:09:11 +0000] "GET /smsNaoEnviados?_=1633464550995 HTTP/1.1" 200 bytesIn:2358 bytesOut:165064 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:09:11 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:09:11 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2369 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:10:02 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:10:02 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:10:26 +0000] "GET /sendsms HTTP/1.1" 200 5042 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:10:26 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2434 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:10:26 +0000] "GET /smsNaoEnviados?_=1633464626185 HTTP/1.1" 200 162870 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:10:26 +0000] "GET /smsNaoEnviados?_=1633464626185 HTTP/1.1" 200 bytesIn:2367 bytesOut:162870 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:10:26 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:10:26 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2378 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:11:04 +0000] "GET /sendsms HTTP/1.1" 200 5042 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:11:04 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2434 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:11:04 +0000] "GET /smsNaoEnviados?_=1633464664283 HTTP/1.1" 200 161196 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:11:04 +0000] "GET /smsNaoEnviados?_=1633464664283 HTTP/1.1" 200 bytesIn:2367 bytesOut:161196 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:11:04 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:11:04 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2378 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:11:48 +0000] "GET /sendsms HTTP/1.1" 200 5042 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:11:48 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2434 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:11:49 +0000] "GET /smsNaoEnviados?_=1633464708998 HTTP/1.1" 200 160661 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:11:49 +0000] "GET /smsNaoEnviados?_=1633464708998 HTTP/1.1" 200 bytesIn:2367 bytesOut:160661 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:11:49 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:11:49 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2378 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:12:40 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:12:40 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:12:48 +0000] "GET /sendsms HTTP/1.1" 200 5042 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:12:48 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2434 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:12:48 +0000] "GET /smsNaoEnviados?_=1633464768427 HTTP/1.1" 200 160654 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:12:48 +0000] "GET /smsNaoEnviados?_=1633464768427 HTTP/1.1" 200 bytesIn:2367 bytesOut:160654 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:12:48 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:12:48 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2378 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:13:39 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:13:39 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:13:47 +0000] "GET /sendsms HTTP/1.1" 200 5042 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:13:47 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2434 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:13:47 +0000] "GET /smsNaoEnviados?_=1633464827093 HTTP/1.1" 200 160654 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:13:47 +0000] "GET /smsNaoEnviados?_=1633464827093 HTTP/1.1" 200 bytesIn:2367 bytesOut:160654 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:13:47 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:13:47 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2378 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:14:38 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:14:38 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:15:04 +0000] "GET /sendsms HTTP/1.1" 200 5042 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:15:04 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2445 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:15:04 +0000] "GET /smsNaoEnviados?_=1633464904503 HTTP/1.1" 200 154029 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:15:04 +0000] "GET /smsNaoEnviados?_=1633464904503 HTTP/1.1" 200 bytesIn:2378 bytesOut:154029 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:15:04 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:15:04 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2389 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:15:21 +0000] "GET /sendsms HTTP/1.1" 200 5042 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:15:21 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2445 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:15:21 +0000] "GET /smsNaoEnviados?_=1633464921179 HTTP/1.1" 200 154021 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:15:21 +0000] "GET /smsNaoEnviados?_=1633464921179 HTTP/1.1" 200 bytesIn:2378 bytesOut:154021 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:15:21 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:15:21 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2389 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:15:44 +0000] "GET /dashboard HTTP/1.1" 200 4778 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:15:44 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2450 bytesOut:4778 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:15:44 +0000] "GET /smsEnviados?_=1633464944607 HTTP/1.1" 200 18562 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:15:44 +0000] "GET /smsEnviados?_=1633464944607 HTTP/1.1" 200 bytesIn:2359 bytesOut:18562 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:15:45 +0000] "GET /dashboard HTTP/1.1" 200 4777 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:15:45 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2477 bytesOut:4777 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:15:46 +0000] "GET /smsEnviados?_=1633464945976 HTTP/1.1" 200 18562 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:15:46 +0000] "GET /smsEnviados?_=1633464945976 HTTP/1.1" 200 bytesIn:2359 bytesOut:18562 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:15:46 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:15:46 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:16:36 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:16:36 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:21:24 +0000] "GET /dashboard HTTP/1.1" 200 4778 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:21:24 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2476 bytesOut:4778 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:21:24 +0000] "GET /smsEnviados?_=1633465284836 HTTP/1.1" 200 54717 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:21:24 +0000] "GET /smsEnviados?_=1633465284836 HTTP/1.1" 200 bytesIn:2359 bytesOut:54717 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:21:25 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:21:25 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:21:27 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:21:27 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2451 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:21:27 +0000] "GET /smsNaoEnviados?_=1633465287905 HTTP/1.1" 200 121437 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:21:27 +0000] "GET /smsNaoEnviados?_=1633465287905 HTTP/1.1" 200 bytesIn:2360 bytesOut:121437 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:21:45 +0000] "GET /dashboard HTTP/1.1" 200 4778 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:21:45 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2450 bytesOut:4778 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:21:45 +0000] "GET /smsEnviados?_=1633465305648 HTTP/1.1" 200 56043 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:21:45 +0000] "GET /smsEnviados?_=1633465305648 HTTP/1.1" 200 bytesIn:2359 bytesOut:56043 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:22:37 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:22:37 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:27:37 +0000] "GET /dashboard HTTP/1.1" 200 4778 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:27:37 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2476 bytesOut:4778 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:27:38 +0000] "GET /smsEnviados?_=1633465658035 HTTP/1.1" 200 71467 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:27:38 +0000] "GET /smsEnviados?_=1633465658035 HTTP/1.1" 200 bytesIn:2359 bytesOut:71467 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:27:38 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:27:38 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:27:39 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:27:39 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2451 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:27:40 +0000] "GET /smsNaoEnviados?_=1633465660042 HTTP/1.1" 200 107619 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:27:40 +0000] "GET /smsNaoEnviados?_=1633465660042 HTTP/1.1" 200 bytesIn:2360 bytesOut:107619 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:27:52 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:27:52 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2476 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:27:52 +0000] "GET /smsNaoEnviados?_=1633465672865 HTTP/1.1" 200 107628 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:27:52 +0000] "GET /smsNaoEnviados?_=1633465672865 HTTP/1.1" 200 bytesIn:2360 bytesOut:107628 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:27:53 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:27:53 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2371 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:28:44 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:28:44 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:31:51 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:31:51 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2476 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:31:51 +0000] "GET /smsNaoEnviados?_=1633465911886 HTTP/1.1" 200 88310 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:31:51 +0000] "GET /smsNaoEnviados?_=1633465911886 HTTP/1.1" 200 bytesIn:2360 bytesOut:88310 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:31:52 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:31:52 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2371 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:32:43 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:32:43 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:39:10 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:39:10 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2476 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:39:10 +0000] "GET /smsNaoEnviados?_=1633466350126 HTTP/1.1" 200 65634 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:39:10 +0000] "GET /smsNaoEnviados?_=1633466350126 HTTP/1.1" 200 bytesIn:2360 bytesOut:65634 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:39:10 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:39:10 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2371 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:39:27 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:39:27 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2476 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:39:28 +0000] "GET /smsNaoEnviados?_=1633466367986 HTTP/1.1" 200 65642 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:39:28 +0000] "GET /smsNaoEnviados?_=1633466367986 HTTP/1.1" 200 bytesIn:2360 bytesOut:65642 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:39:28 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:39:28 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2371 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:39:28 +0000] "GET /dashboard HTTP/1.1" 200 4777 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:39:28 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2451 bytesOut:4777 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:39:29 +0000] "GET /smsEnviados?_=1633466368960 HTTP/1.1" 200 120650 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:39:29 +0000] "GET /smsEnviados?_=1633466368960 HTTP/1.1" 200 bytesIn:2359 bytesOut:120650 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:39:29 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:39:29 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2451 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:39:29 +0000] "GET /smsNaoEnviados?_=1633466369891 HTTP/1.1" 200 65642 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:39:29 +0000] "GET /smsNaoEnviados?_=1633466369891 HTTP/1.1" 200 bytesIn:2360 bytesOut:65642 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:40:19 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:40:19 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:41:02 +0000] "GET /dashboard HTTP/1.1" 200 4778 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:41:02 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2450 bytesOut:4778 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:41:02 +0000] "GET /smsEnviados?_=1633466462327 HTTP/1.1" 200 130962 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:41:02 +0000] "GET /smsEnviados?_=1633466462327 HTTP/1.1" 200 bytesIn:2359 bytesOut:130962 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:41:03 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:41:03 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2451 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:41:03 +0000] "GET /smsNaoEnviados?_=1633466463429 HTTP/1.1" 200 56806 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:41:03 +0000] "GET /smsNaoEnviados?_=1633466463429 HTTP/1.1" 200 bytesIn:2360 bytesOut:56806 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:41:07 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:41:07 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2477 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:41:07 +0000] "GET /smsNaoEnviados?_=1633466467925 HTTP/1.1" 200 56806 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:41:07 +0000] "GET /smsNaoEnviados?_=1633466467925 HTTP/1.1" 200 bytesIn:2360 bytesOut:56806 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:41:08 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:41:08 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2371 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:41:53 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:41:53 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:44:57 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:44:57 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2476 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:44:57 +0000] "GET /smsNaoEnviados?_=1633466697720 HTTP/1.1" 200 42490 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:44:57 +0000] "GET /smsNaoEnviados?_=1633466697720 HTTP/1.1" 200 bytesIn:2360 bytesOut:42490 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:44:58 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:44:58 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2371 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:44:59 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:44:59 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2477 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:44:59 +0000] "GET /smsNaoEnviados?_=1633466699893 HTTP/1.1" 200 42490 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:44:59 +0000] "GET /smsNaoEnviados?_=1633466699893 HTTP/1.1" 200 bytesIn:2360 bytesOut:42490 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:45:00 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:45:00 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2371 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:45:49 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:45:49 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:47:12 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:47:12 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2476 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:47:12 +0000] "GET /smsNaoEnviados?_=1633466832617 HTTP/1.1" 200 27587 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:47:12 +0000] "GET /smsNaoEnviados?_=1633466832617 HTTP/1.1" 200 bytesIn:2360 bytesOut:27587 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:47:12 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:47:12 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2371 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:47:22 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:47:22 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2476 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:47:22 +0000] "GET /smsNaoEnviados?_=1633466842441 HTTP/1.1" 200 25380 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:47:22 +0000] "GET /smsNaoEnviados?_=1633466842441 HTTP/1.1" 200 bytesIn:2360 bytesOut:25380 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:47:22 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:47:22 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2371 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:48:13 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:48:13 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:52:16 +0000] "GET /dashboard HTTP/1.1" 200 4778 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:52:16 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2450 bytesOut:4778 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:52:16 +0000] "GET /smsEnviados?_=1633467136682 HTTP/1.1" 200 195393 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:52:16 +0000] "GET /smsEnviados?_=1633467136682 HTTP/1.1" 200 bytesIn:2359 bytesOut:195393 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:52:17 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:52:17 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2451 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:52:17 +0000] "GET /smsNaoEnviados?_=1633467137769 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:52:17 +0000] "GET /smsNaoEnviados?_=1633467137769 HTTP/1.1" 200 bytesIn:2360 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:52:21 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:52:21 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2449 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:52:21 +0000] "GET /smsNaoEnviados?_=1633467141137 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:20:52:21 +0000] "GET /smsNaoEnviados?_=1633467141137 HTTP/1.1" 200 bytesIn:2360 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:20:53:07 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:20:53:07 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:02:01 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:21:02:01 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:02:01 +0000] "GET /sendsms HTTP/1.1" 200 5042 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:02:01 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2400 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:02:02 +0000] "GET /smsNaoEnviados?_=1633467722046 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:02:02 +0000] "GET /smsNaoEnviados?_=1633467722046 HTTP/1.1" 200 bytesIn:2359 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:02:04 +0000] "GET /dashboard HTTP/1.1" 200 4777 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:02:04 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2450 bytesOut:4777 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:02:04 +0000] "GET /smsEnviados?_=1633467724456 HTTP/1.1" 200 195393 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:02:04 +0000] "GET /smsEnviados?_=1633467724456 HTTP/1.1" 200 bytesIn:2358 bytesOut:195393 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:02:53 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:21:02:53 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:08:16 +0000] "GET /sendsms HTTP/1.1" 200 5042 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:08:16 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2145 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:08:16 +0000] "GET /smsNaoEnviados?_=1633468096663 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:08:16 +0000] "GET /smsNaoEnviados?_=1633468096663 HTTP/1.1" 200 bytesIn:2104 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:09:07 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:21:09:07 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:13:59 +0000] "POST /import HTTP/1.1" 302 1570 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:13:59 +0000] "POST /import HTTP/1.1" 302 bytesIn:38641 bytesOut:1570 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:13:59 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:13:59 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2490 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:13:59 +0000] "GET /smsNaoEnviados?_=1633468439789 HTTP/1.1" 200 166123 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:13:59 +0000] "GET /smsNaoEnviados?_=1633468439789 HTTP/1.1" 200 bytesIn:2375 bytesOut:166123 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:14:50 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:21:14:50 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:21:17 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:21:17 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2489 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:21:17 +0000] "GET /smsNaoEnviados?_=1633468877603 HTTP/1.1" 200 147966 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:21:17 +0000] "GET /smsNaoEnviados?_=1633468877603 HTTP/1.1" 200 bytesIn:2375 bytesOut:147966 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:21:17 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:21:17 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2386 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:21:55 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:21:55 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2489 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:21:56 +0000] "GET /smsNaoEnviados?_=1633468916023 HTTP/1.1" 200 147966 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:21:56 +0000] "GET /smsNaoEnviados?_=1633468916023 HTTP/1.1" 200 bytesIn:2375 bytesOut:147966 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:21:56 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:21:56 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2386 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:21:58 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:21:58 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2490 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:21:58 +0000] "GET /smsNaoEnviados?_=1633468918602 HTTP/1.1" 200 147966 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:21:58 +0000] "GET /smsNaoEnviados?_=1633468918602 HTTP/1.1" 200 bytesIn:2375 bytesOut:147966 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:21:58 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:21:58 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2386 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:22:34 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:22:34 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2489 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:22:34 +0000] "GET /smsNaoEnviados?_=1633468954290 HTTP/1.1" 200 147966 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:22:34 +0000] "GET /smsNaoEnviados?_=1633468954290 HTTP/1.1" 200 bytesIn:2375 bytesOut:147966 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:22:34 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:22:34 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2386 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:23:25 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:21:23:25 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:25:45 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:25:45 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:25:45 +0000] "GET /smsNaoEnviados?_=1633469145504 HTTP/1.1" 200 140268 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:25:45 +0000] "GET /smsNaoEnviados?_=1633469145504 HTTP/1.1" 200 bytesIn:2352 bytesOut:140268 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:25:45 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:25:45 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2363 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:26:36 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:21:26:36 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:40:26 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:40:26 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2477 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:40:26 +0000] "GET /smsNaoEnviados?_=1633470026172 HTTP/1.1" 200 124340 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:40:26 +0000] "GET /smsNaoEnviados?_=1633470026172 HTTP/1.1" 200 bytesIn:2363 bytesOut:124340 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:40:26 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:40:26 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2374 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:40:29 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:40:29 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2478 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:40:30 +0000] "GET /smsNaoEnviados?_=1633470029999 HTTP/1.1" 200 124332 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:40:30 +0000] "GET /smsNaoEnviados?_=1633470029999 HTTP/1.1" 200 bytesIn:2363 bytesOut:124332 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:40:30 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:40:30 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2374 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:41:17 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [05/Oct/2021:21:41:17 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:13 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:13 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2476 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:13 +0000] "GET /smsNaoEnviados?_=1633470193663 HTTP/1.1" 200 115514 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:13 +0000] "GET /smsNaoEnviados?_=1633470193663 HTTP/1.1" 200 bytesIn:2362 bytesOut:115514 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:14 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:14 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:20 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:20 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2476 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:20 +0000] "GET /smsNaoEnviados?_=1633470200392 HTTP/1.1" 200 114976 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:20 +0000] "GET /smsNaoEnviados?_=1633470200392 HTTP/1.1" 200 bytesIn:2362 bytesOut:114976 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:20 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:20 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:22 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:22 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2477 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:22 +0000] "GET /smsNaoEnviados?_=1633470202579 HTTP/1.1" 200 114968 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:22 +0000] "GET /smsNaoEnviados?_=1633470202579 HTTP/1.1" 200 bytesIn:2362 bytesOut:114968 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:22 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:22 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:23 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:23 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2477 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:23 +0000] "GET /smsNaoEnviados?_=1633470203716 HTTP/1.1" 200 114430 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:23 +0000] "GET /smsNaoEnviados?_=1633470203716 HTTP/1.1" 200 bytesIn:2362 bytesOut:114430 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:24 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:24 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:24 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:24 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2477 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:24 +0000] "GET /smsNaoEnviados?_=1633470204708 HTTP/1.1" 200 114422 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:24 +0000] "GET /smsNaoEnviados?_=1633470204708 HTTP/1.1" 200 bytesIn:2362 bytesOut:114422 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:25 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:25 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:25 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:25 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2477 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:25 +0000] "GET /smsNaoEnviados?_=1633470205778 HTTP/1.1" 200 114429 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:25 +0000] "GET /smsNaoEnviados?_=1633470205778 HTTP/1.1" 200 bytesIn:2362 bytesOut:114429 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:26 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:26 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:26 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:26 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2477 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:26 +0000] "GET /smsNaoEnviados?_=1633470206666 HTTP/1.1" 200 113881 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:26 +0000] "GET /smsNaoEnviados?_=1633470206666 HTTP/1.1" 200 bytesIn:2362 bytesOut:113881 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:27 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:27 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:27 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:27 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2477 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:27 +0000] "GET /favicon.ico HTTP/1.1" 200 296 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:27 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2372 bytesOut:296 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:27 +0000] "GET /smsNaoEnviados?_=1633470207885 HTTP/1.1" 200 113867 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:27 +0000] "GET /smsNaoEnviados?_=1633470207885 HTTP/1.1" 200 bytesIn:2362 bytesOut:113867 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:30 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:30 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2477 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:30 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:30 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:43:30 +0000] "GET /smsNaoEnviados?_=1633470210748 HTTP/1.1" 200 113315 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:43:30 +0000] "GET /smsNaoEnviados?_=1633470210748 HTTP/1.1" 200 bytesIn:2362 bytesOut:113315 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:44:33 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:44:33 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2476 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:44:33 +0000] "GET /favicon.ico HTTP/1.1" 200 296 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:44:33 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2372 bytesOut:296 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:44:33 +0000] "GET /smsNaoEnviados?_=1633470273231 HTTP/1.1" 200 103410 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:44:33 +0000] "GET /smsNaoEnviados?_=1633470273231 HTTP/1.1" 200 bytesIn:2362 bytesOut:103410 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:44:35 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:44:35 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2477 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:44:35 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:44:35 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:44:35 +0000] "GET /smsNaoEnviados?_=1633470275797 HTTP/1.1" 200 103409 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:44:35 +0000] "GET /smsNaoEnviados?_=1633470275797 HTTP/1.1" 200 bytesIn:2362 bytesOut:103409 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:45:33 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:45:33 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2476 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:45:33 +0000] "GET /favicon.ico HTTP/1.1" 200 296 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:45:33 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2372 bytesOut:296 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:45:33 +0000] "GET /smsNaoEnviados?_=1633470333360 HTTP/1.1" 200 102330 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:45:33 +0000] "GET /smsNaoEnviados?_=1633470333360 HTTP/1.1" 200 bytesIn:2362 bytesOut:102330 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:45:35 +0000] "GET /sendsms HTTP/1.1" 200 5041 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:45:35 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2477 bytesOut:5041 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:45:35 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:45:35 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2373 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:45:35 +0000] "GET /smsNaoEnviados?_=1633470335677 HTTP/1.1" 200 102323 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:45:35 +0000] "GET /smsNaoEnviados?_=1633470335677 HTTP/1.1" 200 bytesIn:2362 bytesOut:102323 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:45:58 +0000] "GET /sendsms HTTP/1.1" 200 5042 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:45:58 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2476 bytesOut:5042 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:45:58 +0000] "GET /favicon.ico HTTP/1.1" 200 296 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:45:58 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2372 bytesOut:296 reqTime:0
+docker.vm:80 172.28.0.1 - - [05/Oct/2021:21:45:58 +0000] "GET /smsNaoEnviados?_=1633470358673 HTTP/1.1" 200 102334 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [05/Oct/2021:21:45:58 +0000] "GET /smsNaoEnviados?_=1633470358673 HTTP/1.1" 200 bytesIn:2362 bytesOut:102334 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:20:52 +0000] "GET /sendsms HTTP/1.1" 200 5044 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:20:52 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:1778 bytesOut:5044 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:20:53 +0000] "GET /favicon.ico HTTP/1.1" 200 296 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:20:53 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2370 bytesOut:296 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:20:53 +0000] "GET /smsNaoEnviados?_=1633526452985 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:20:53 +0000] "GET /smsNaoEnviados?_=1633526452985 HTTP/1.1" 200 bytesIn:2360 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:20:57 +0000] "GET /dashboard HTTP/1.1" 200 4779 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:20:57 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2451 bytesOut:4779 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:20:57 +0000] "GET /smsEnviados?_=1633526457812 HTTP/1.1" 200 388702 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:20:57 +0000] "GET /smsEnviados?_=1633526457812 HTTP/1.1" 200 bytesIn:2359 bytesOut:388702 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:21:04 +0000] "GET /sendsms HTTP/1.1" 200 5044 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:21:04 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2450 bytesOut:5044 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:21:05 +0000] "GET /smsNaoEnviados?_=1633526465131 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:21:05 +0000] "GET /smsNaoEnviados?_=1633526465131 HTTP/1.1" 200 bytesIn:2360 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:21:40 +0000] "GET /dashboard HTTP/1.1" 200 4780 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:21:40 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2450 bytesOut:4780 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:21:40 +0000] "GET /smsEnviados?_=1633526500543 HTTP/1.1" 200 388702 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:21:40 +0000] "GET /smsEnviados?_=1633526500543 HTTP/1.1" 200 bytesIn:2359 bytesOut:388702 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:21:50 +0000] "GET /sendsms HTTP/1.1" 200 5044 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:21:50 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2450 bytesOut:5044 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:21:50 +0000] "GET /smsNaoEnviados?_=1633526510811 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:21:50 +0000] "GET /smsNaoEnviados?_=1633526510811 HTTP/1.1" 200 bytesIn:2360 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:22:03 +0000] "GET /dashboard HTTP/1.1" 200 4780 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:22:03 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2451 bytesOut:4780 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:22:03 +0000] "GET /smsEnviados?_=1633526523296 HTTP/1.1" 200 388709 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:22:03 +0000] "GET /smsEnviados?_=1633526523296 HTTP/1.1" 200 bytesIn:2360 bytesOut:388709 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:22:05 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:22:05 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2452 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:22:05 +0000] "GET /smsNaoEnviados?_=1633526525459 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:22:05 +0000] "GET /smsNaoEnviados?_=1633526525459 HTTP/1.1" 200 bytesIn:2361 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:22:09 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:22:09 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2450 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:22:09 +0000] "GET /smsNaoEnviados?_=1633526529229 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:22:09 +0000] "GET /smsNaoEnviados?_=1633526529229 HTTP/1.1" 200 bytesIn:2361 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:22:10 +0000] "GET /dashboard HTTP/1.1" 200 4779 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:22:10 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2452 bytesOut:4779 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:22:10 +0000] "GET /smsEnviados?_=1633526530463 HTTP/1.1" 200 388702 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:22:10 +0000] "GET /smsEnviados?_=1633526530463 HTTP/1.1" 200 bytesIn:2360 bytesOut:388702 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:22:13 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:22:13 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2452 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:22:13 +0000] "GET /smsNaoEnviados?_=1633526533530 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:22:13 +0000] "GET /smsNaoEnviados?_=1633526533530 HTTP/1.1" 200 bytesIn:2361 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:22:54 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [06/Oct/2021:13:22:54 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:25:42 +0000] "GET /dashboard HTTP/1.1" 200 4780 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:25:42 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2467 bytesOut:4780 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:25:42 +0000] "GET /smsEnviados?_=1633526742507 HTTP/1.1" 200 388702 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:25:42 +0000] "GET /smsEnviados?_=1633526742507 HTTP/1.1" 200 bytesIn:2376 bytesOut:388702 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:25:47 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:25:47 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2468 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:25:47 +0000] "GET /smsNaoEnviados?_=1633526747722 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:25:47 +0000] "GET /smsNaoEnviados?_=1633526747722 HTTP/1.1" 200 bytesIn:2377 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:26:33 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [06/Oct/2021:13:26:33 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:31:10 +0000] "GET /dashboard HTTP/1.1" 200 4780 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:31:10 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2441 bytesOut:4780 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:31:10 +0000] "GET /smsEnviados?_=1633527070250 HTTP/1.1" 200 388723 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:31:10 +0000] "GET /smsEnviados?_=1633527070250 HTTP/1.1" 200 bytesIn:2350 bytesOut:388723 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:31:17 +0000] "GET /sendsms HTTP/1.1" 200 5044 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:31:17 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2441 bytesOut:5044 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:31:17 +0000] "GET /smsNaoEnviados?_=1633527077773 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:31:17 +0000] "GET /smsNaoEnviados?_=1633527077773 HTTP/1.1" 200 bytesIn:2351 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:31:20 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:31:20 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2468 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:31:20 +0000] "GET /favicon.ico HTTP/1.1" 200 296 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:31:20 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2361 bytesOut:296 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:31:20 +0000] "GET /smsNaoEnviados?_=1633527080750 HTTP/1.1" 200 1672 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:31:20 +0000] "GET /smsNaoEnviados?_=1633527080750 HTTP/1.1" 200 bytesIn:2351 bytesOut:1672 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:36:01 +0000] "POST /import HTTP/1.1" 500 740048 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:36:01 +0000] "POST /import HTTP/1.1" 500 bytesIn:38834 bytesOut:740048 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:36:16 +0000] "GET /smsNaoEnviados?_=1633527376383 HTTP/1.1" 200 166155 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:36:16 +0000] "GET /smsNaoEnviados?_=1633527376383 HTTP/1.1" 200 bytesIn:2350 bytesOut:166155 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:03 +0000] "GET /sendsms HTTP/1.1" 200 5044 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:03 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2467 bytesOut:5044 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:03 +0000] "GET /smsNaoEnviados?_=1633527423301 HTTP/1.1" 200 165061 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:03 +0000] "GET /smsNaoEnviados?_=1633527423301 HTTP/1.1" 200 bytesIn:2351 bytesOut:165061 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:03 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:03 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:06 +0000] "POST /import HTTP/1.1" 302 1569 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:06 +0000] "POST /import HTTP/1.1" 302 bytesIn:38479 bytesOut:1569 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:06 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:06 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:06 +0000] "GET /smsNaoEnviados?_=1633527426642 HTTP/1.1" 200 329537 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:06 +0000] "GET /smsNaoEnviados?_=1633527426642 HTTP/1.1" 200 bytesIn:2351 bytesOut:329537 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:26 +0000] "GET /sendsms HTTP/1.1" 200 5044 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:26 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2465 bytesOut:5044 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:26 +0000] "GET /smsNaoEnviados?_=1633527446238 HTTP/1.1" 200 328981 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:26 +0000] "GET /smsNaoEnviados?_=1633527446238 HTTP/1.1" 200 bytesIn:2351 bytesOut:328981 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:26 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:26 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:43 +0000] "GET /sendsms HTTP/1.1" 200 5044 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:43 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2465 bytesOut:5044 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:44 +0000] "GET /smsNaoEnviados?_=1633527464034 HTTP/1.1" 200 328443 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:44 +0000] "GET /smsNaoEnviados?_=1633527464034 HTTP/1.1" 200 bytesIn:2351 bytesOut:328443 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:44 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:44 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:46 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:46 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:46 +0000] "GET /smsNaoEnviados?_=1633527466804 HTTP/1.1" 200 328429 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:46 +0000] "GET /smsNaoEnviados?_=1633527466804 HTTP/1.1" 200 bytesIn:2351 bytesOut:328429 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:47 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:47 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:49 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:49 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:49 +0000] "GET /smsNaoEnviados?_=1633527469250 HTTP/1.1" 200 328429 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:49 +0000] "GET /smsNaoEnviados?_=1633527469250 HTTP/1.1" 200 bytesIn:2351 bytesOut:328429 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:49 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:49 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:50 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:50 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:50 +0000] "GET /smsNaoEnviados?_=1633527470912 HTTP/1.1" 200 328437 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:50 +0000] "GET /smsNaoEnviados?_=1633527470912 HTTP/1.1" 200 bytesIn:2351 bytesOut:328437 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:37:51 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:37:51 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:35 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:35 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:41 +0000] "GET /sendsms HTTP/1.1" 200 5044 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:41 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2465 bytesOut:5044 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:42 +0000] "GET /smsNaoEnviados?_=1633527522034 HTTP/1.1" 200 327324 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:42 +0000] "GET /smsNaoEnviados?_=1633527522034 HTTP/1.1" 200 bytesIn:2351 bytesOut:327324 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:42 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:42 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:44 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:44 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:44 +0000] "GET /smsNaoEnviados?_=1633527524137 HTTP/1.1" 200 326791 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:44 +0000] "GET /smsNaoEnviados?_=1633527524137 HTTP/1.1" 200 bytesIn:2351 bytesOut:326791 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:44 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:44 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:45 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:45 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:45 +0000] "GET /smsNaoEnviados?_=1633527525185 HTTP/1.1" 200 326784 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:45 +0000] "GET /smsNaoEnviados?_=1633527525185 HTTP/1.1" 200 bytesIn:2351 bytesOut:326784 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:45 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:45 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:46 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:46 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:46 +0000] "GET /smsNaoEnviados?_=1633527526232 HTTP/1.1" 200 326784 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:46 +0000] "GET /smsNaoEnviados?_=1633527526232 HTTP/1.1" 200 bytesIn:2351 bytesOut:326784 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:46 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:46 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:47 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:47 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:47 +0000] "GET /favicon.ico HTTP/1.1" 200 296 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:47 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2361 bytesOut:296 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:47 +0000] "GET /smsNaoEnviados?_=1633527527442 HTTP/1.1" 200 326798 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:47 +0000] "GET /smsNaoEnviados?_=1633527527442 HTTP/1.1" 200 bytesIn:2351 bytesOut:326798 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:50 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:50 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:50 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:50 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:50 +0000] "GET /smsNaoEnviados?_=1633527530222 HTTP/1.1" 200 325691 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:50 +0000] "GET /smsNaoEnviados?_=1633527530222 HTTP/1.1" 200 bytesIn:2351 bytesOut:325691 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:52 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:52 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:52 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:52 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:52 +0000] "GET /smsNaoEnviados?_=1633527532538 HTTP/1.1" 200 325684 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:52 +0000] "GET /smsNaoEnviados?_=1633527532538 HTTP/1.1" 200 bytesIn:2351 bytesOut:325684 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:53 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:53 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:53 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:53 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:53 +0000] "GET /smsNaoEnviados?_=1633527533789 HTTP/1.1" 200 325699 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:53 +0000] "GET /smsNaoEnviados?_=1633527533789 HTTP/1.1" 200 bytesIn:2351 bytesOut:325699 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:54 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:54 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:55 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:55 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:54 +0000] "GET /smsNaoEnviados?_=1633527534930 HTTP/1.1" 200 324575 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:54 +0000] "GET /smsNaoEnviados?_=1633527534930 HTTP/1.1" 200 bytesIn:2351 bytesOut:324575 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:55 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:55 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:56 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:56 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:56 +0000] "GET /smsNaoEnviados?_=1633527536167 HTTP/1.1" 200 324582 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:56 +0000] "GET /smsNaoEnviados?_=1633527536167 HTTP/1.1" 200 bytesIn:2351 bytesOut:324582 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:57 +0000] "GET /sendsms HTTP/1.1" 200 5043 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:57 +0000] "GET /sendsms HTTP/1.1" 200 bytesIn:2466 bytesOut:5043 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:57 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:57 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2362 bytesOut:295 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:38:57 +0000] "GET /smsNaoEnviados?_=1633527537300 HTTP/1.1" 200 324575 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:38:57 +0000] "GET /smsNaoEnviados?_=1633527537300 HTTP/1.1" 200 bytesIn:2351 bytesOut:324575 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:39:01 +0000] "GET /dashboard HTTP/1.1" 200 4779 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:39:01 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2442 bytesOut:4779 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:39:01 +0000] "GET /smsEnviados?_=1633527541530 HTTP/1.1" 200 397813 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:39:01 +0000] "GET /smsEnviados?_=1633527541530 HTTP/1.1" 200 bytesIn:2350 bytesOut:397813 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:39:02 +0000] "GET /dashboard HTTP/1.1" 200 4779 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:39:02 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2468 bytesOut:4779 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:39:03 +0000] "GET /favicon.ico HTTP/1.1" 200 296 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:39:03 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2363 bytesOut:296 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:39:03 +0000] "GET /smsEnviados?_=1633527543086 HTTP/1.1" 200 397820 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:39:03 +0000] "GET /smsEnviados?_=1633527543086 HTTP/1.1" 200 bytesIn:2350 bytesOut:397820 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:39:58 +0000] "GET /dashboard HTTP/1.1" 200 4780 "http://localhost:7777/sendsms" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:39:58 +0000] "GET /dashboard HTTP/1.1" 200 bytesIn:2467 bytesOut:4780 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:39:58 +0000] "GET /favicon.ico HTTP/1.1" 200 296 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:39:58 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:2363 bytesOut:296 reqTime:0
+docker.vm:80 172.28.0.1 - - [06/Oct/2021:13:39:58 +0000] "GET /smsEnviados?_=1633527598407 HTTP/1.1" 200 405583 "http://localhost:7777/dashboard" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+[httpd:access] localhost:80 - - 172.28.0.1 - - [06/Oct/2021:13:39:58 +0000] "GET /smsEnviados?_=1633527598407 HTTP/1.1" 200 bytesIn:2350 bytesOut:405583 reqTime:0
